@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio case study for an alternative investment sales strategy analytics platform by Allen Xu."
+      content="Institutional finance analytics case study for an alternative investment sales strategy platform by Allen Xu."
     />
     <title>Alternative Investment Sales Strategy Analytics Platform</title>
     <link rel="stylesheet" href="styles.css" />
@@ -14,17 +14,17 @@
     <header class="site-header">
       <a class="brand" href="#top">Allen Xu</a>
       <nav aria-label="Primary navigation">
-        <a href="#modules">Analysis</a>
-        <a href="#visuals">Visuals</a>
-        <a href="#quality">Quality</a>
-        <a href="#documentation">Documentation</a>
+        <a class="nav-link" href="#modules">Analysis</a>
+        <a class="nav-link" href="#visuals">Visuals</a>
+        <a class="nav-link" href="#quality">Quality</a>
+        <a class="nav-link" href="#documentation">Documentation</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero section-pad">
         <div class="hero-copy">
-          <p class="eyebrow">KKR Analyst - Sales Strategy Portfolio Case Study</p>
+          <p class="eyebrow">Sales Strategy Analytics Portfolio Case Study</p>
           <h1>Alternative Investment Sales Strategy Analytics Platform</h1>
           <p class="hero-subtitle">
             End-to-end analytics platform simulating how a Global Client Solutions / Wealth
@@ -51,34 +51,61 @@
       <section class="kpi-strip" aria-label="Key project metrics">
         <div class="kpi-card">
           <span>$58.8B</span>
-          <p>Expected Pipeline</p>
+          <p class="kpi-label">Expected Pipeline</p>
+          <small>Modeled opportunity value across all stages.</small>
         </div>
         <div class="kpi-card">
           <span>$6.75B</span>
-          <p>Committed Capital</p>
+          <p class="kpi-label">Committed Capital</p>
+          <small>Closed commitment value in the synthetic dataset.</small>
         </div>
         <div class="kpi-card">
           <span>10.87%</span>
-          <p>Conversion Rate</p>
+          <p class="kpi-label">Conversion Rate</p>
+          <small>Committed opportunities divided by total opportunities.</small>
         </div>
         <div class="kpi-card">
           <span>400</span>
-          <p>Advisors</p>
+          <p class="kpi-label">Advisors</p>
+          <small>Synthetic advisor universe across wealth and institutional channels.</small>
         </div>
         <div class="kpi-card">
           <span>16</span>
-          <p>Relationship Managers</p>
+          <p class="kpi-label">Relationship Managers</p>
+          <small>Coverage team used for productivity benchmarking.</small>
         </div>
         <div class="kpi-card">
           <span>132</span>
-          <p>High-Priority Advisors</p>
+          <p class="kpi-label">High-Priority Advisors</p>
+          <small>Top-tier advisor targets from the priority scoring model.</small>
         </div>
       </section>
       <p class="synthetic-note">
         All figures are generated from deterministic synthetic data and are used to demonstrate the analytical framework.
       </p>
 
-      <section class="section-pad" id="problem">
+      <section class="section-pad executive-snapshot" aria-labelledby="summary-title">
+        <div class="section-heading">
+          <p class="eyebrow">Executive Summary Snapshot</p>
+          <h2 id="summary-title">A portfolio-quality analytics artifact for distribution strategy and sales enablement.</h2>
+        </div>
+        <div class="snapshot-grid">
+          <article class="snapshot-card">
+            <h3>Business Context</h3>
+            <p>Alternative investment distribution is long-cycle, capital-concentrated, and relationship-driven.</p>
+          </article>
+          <article class="snapshot-card">
+            <h3>Analytics Scope</h3>
+            <p>The platform analyzes funnel conversion, RM productivity, product demand, campaign ROI, and advisor prioritization.</p>
+          </article>
+          <article class="snapshot-card">
+            <h3>Decision Support</h3>
+            <p>Outputs are designed for sales leadership, coverage planning, campaign allocation, and next-best-action workflows.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-pad muted" id="problem">
         <div class="section-heading">
           <p class="eyebrow">Business Problem</p>
           <h2>Alternative investment distribution is long-cycle, capital-concentrated, and relationship-driven.</h2>
@@ -104,7 +131,7 @@
         </div>
       </section>
 
-      <section class="section-pad muted" id="built">
+      <section class="section-pad" id="built">
         <div class="section-heading compact">
           <p class="eyebrow">What I Built</p>
           <h2>A reproducible analytics workflow from synthetic CRM-style data to executive reporting.</h2>
@@ -126,74 +153,76 @@
         </div>
       </section>
 
-      <section class="section-pad" id="modules">
+      <section class="section-pad muted" id="modules">
         <div class="section-heading">
           <p class="eyebrow">Analysis Modules</p>
           <h2>Five connected analyses that mirror sales strategy and enablement use cases.</h2>
         </div>
-        <div class="card-grid modules">
-          <article class="card">
-            <h3>Sales Funnel Conversion</h3>
-            <p><strong>Question:</strong> Where does the pipeline drop off?</p>
-            <p><strong>Output:</strong> `sales_funnel_summary.csv`</p>
-            <p>Shows stage conversion, region performance, AUM segment quality, and asset class velocity.</p>
-          </article>
-          <article class="card">
-            <h3>Relationship Manager Productivity</h3>
-            <p><strong>Question:</strong> Who is converting engagement into capital?</p>
-            <p><strong>Output:</strong> `rm_productivity_summary.csv`</p>
-            <p>Benchmarks activity, follow-up completion, conversion, and coaching opportunities.</p>
-          </article>
-          <article class="card">
-            <h3>Product Demand Analysis</h3>
-            <p><strong>Question:</strong> Which products generate demand and capital?</p>
-            <p><strong>Output:</strong> `product_demand_summary.csv`</p>
-            <p>Compares product engagement, opportunities, committed capital, and conversion by asset class.</p>
-          </article>
-          <article class="card">
-            <h3>Campaign ROI</h3>
-            <p><strong>Question:</strong> Which campaigns show strongest modeled efficiency?</p>
-            <p><strong>Output:</strong> `campaign_roi_summary.csv`</p>
-            <p>Calculates cost efficiency, qualified opportunities, attributable capital, and a fee proxy.</p>
-          </article>
-          <article class="card">
-            <h3>Advisor Priority Scoring</h3>
-            <p><strong>Question:</strong> Which advisors should RMs prioritize next?</p>
-            <p><strong>Output:</strong> `advisor_priority_scores.csv`</p>
-            <p>Combines engagement, AUM, conversion probability, product fit, and recency into explainable tiers.</p>
-          </article>
+        <div class="module-tabs" role="group" aria-label="Analysis module selector">
+          <button class="module-tab active" type="button" data-module="funnel" aria-pressed="true">Sales Funnel Conversion</button>
+          <button class="module-tab" type="button" data-module="rm" aria-pressed="false">RM Productivity</button>
+          <button class="module-tab" type="button" data-module="product" aria-pressed="false">Product Demand</button>
+          <button class="module-tab" type="button" data-module="campaign" aria-pressed="false">Campaign ROI</button>
+          <button class="module-tab" type="button" data-module="advisor" aria-pressed="false">Advisor Priority Scoring</button>
+        </div>
+        <div class="module-detail" aria-live="polite">
+          <div>
+            <span>Business Question</span>
+            <p id="module-question">Where does the pipeline drop off?</p>
+          </div>
+          <div>
+            <span>Output File</span>
+            <p id="module-output">sales_funnel_summary.csv</p>
+          </div>
+          <div>
+            <span>Key Metric</span>
+            <p id="module-metric">10.87% overall conversion rate</p>
+          </div>
+          <div>
+            <span>Why It Matters</span>
+            <p id="module-why">Helps sales leadership focus on the stages and segments with the largest conversion gaps.</p>
+          </div>
         </div>
       </section>
 
-      <section class="section-pad muted" id="visuals">
+      <section class="section-pad" id="visuals">
         <div class="section-heading">
           <p class="eyebrow">Selected Visuals</p>
           <h2>Executive-ready charts generated from the processed analytics marts.</h2>
+          <p>Click any chart to review it in a larger format.</p>
         </div>
         <div class="visual-grid">
           <figure class="chart-card">
-            <img src="assets/sales_funnel_conversion.png" alt="Sales funnel opportunities by stage" />
+            <button class="chart-trigger" type="button" data-title="Sales Funnel Conversion" data-src="assets/sales_funnel_conversion.png">
+              <img src="assets/sales_funnel_conversion.png" alt="Sales funnel opportunities by stage" />
+            </button>
             <figcaption>
               <strong>Sales Funnel Conversion</strong>
               <span>Highlights where opportunities sit by stage and the capital attached to each step.</span>
             </figcaption>
           </figure>
           <figure class="chart-card">
-            <img src="assets/rm_productivity.png" alt="Relationship manager productivity leaderboard" />
+            <button class="chart-trigger" type="button" data-title="RM Productivity" data-src="assets/rm_productivity.png">
+              <img src="assets/rm_productivity.png" alt="Relationship manager productivity leaderboard" />
+            </button>
             <figcaption>
               <strong>RM Productivity</strong>
               <span>Compares committed capital by RM while flagging coaching opportunities.</span>
             </figcaption>
           </figure>
           <figure class="chart-card">
-            <img src="assets/campaign_roi.png" alt="Campaign ROI by campaign type" />
+            <button class="chart-trigger" type="button" data-title="Campaign ROI" data-src="assets/campaign_roi.png">
+              <img src="assets/campaign_roi.png" alt="Campaign ROI by campaign type" />
+            </button>
             <figcaption>
               <strong>Campaign ROI</strong>
               <span>Shows modeled committed-capital-to-cost efficiency by campaign type.</span>
             </figcaption>
           </figure>
           <figure class="chart-card">
-            <img src="assets/product_demand.png" alt="Product demand by asset class" />
+            <button class="chart-trigger" type="button" data-title="Product Demand" data-src="assets/product_demand.png">
+              <img src="assets/product_demand.png" alt="Product demand by asset class" />
+            </button>
             <figcaption>
               <strong>Product Demand</strong>
               <span>Compares committed capital and engagement across alternative asset classes.</span>
@@ -202,7 +231,7 @@
         </div>
       </section>
 
-      <section class="section-pad" id="insights">
+      <section class="section-pad muted" id="insights">
         <div class="section-heading">
           <p class="eyebrow">Key Insights</p>
           <h2>Business findings framed for sales leadership.</h2>
@@ -216,7 +245,7 @@
         </div>
       </section>
 
-      <section class="section-pad muted" id="model">
+      <section class="section-pad" id="model">
         <div class="section-heading compact">
           <p class="eyebrow">Data Model</p>
           <h2>CRM-style distribution analytics without confidential client data.</h2>
@@ -236,7 +265,7 @@
         </div>
       </section>
 
-      <section class="section-pad" id="quality">
+      <section class="section-pad muted" id="quality">
         <div class="section-heading">
           <p class="eyebrow">Quality and Reproducibility</p>
           <h2>Built to be inspectable, rerunnable, and safe to share publicly.</h2>
@@ -248,7 +277,7 @@
           </article>
           <article class="card">
             <h3>Validation Coverage</h3>
-            <p>`src/validate_outputs.py` checks files, row counts, keys, KPI values, chart assets, and README embeds.</p>
+            <p><code>src/validate_outputs.py</code> checks files, row counts, keys, KPI values, chart assets, and README embeds.</p>
           </article>
           <article class="card">
             <h3>Public-Safe Data</h3>
@@ -258,7 +287,7 @@
         <a class="text-link" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics/blob/main/docs/DATA_QUALITY_CHECKS.md">Read Data Quality Checks</a>
       </section>
 
-      <section class="section-pad muted" id="skills">
+      <section class="section-pad" id="skills">
         <div class="section-heading compact">
           <p class="eyebrow">Skills Demonstrated</p>
           <h2>Analytics, engineering, and executive communication.</h2>
@@ -278,7 +307,7 @@
         </div>
       </section>
 
-      <section class="section-pad" id="documentation">
+      <section class="section-pad muted" id="documentation">
         <div class="section-heading">
           <p class="eyebrow">Documentation & Review Materials</p>
           <h2>Supporting materials for technical reviewers, hiring managers, and business stakeholders.</h2>
@@ -302,7 +331,30 @@
           </a>
         </div>
       </section>
+
+      <section class="final-cta section-pad" aria-labelledby="final-cta-title">
+        <div>
+          <p class="eyebrow">Full Repository</p>
+          <h2 id="final-cta-title">Explore the Full Analytics Project</h2>
+          <p>
+            Review the source code, SQL scripts, generated synthetic data, dashboard-ready marts,
+            executive report, methodology, and validation workflow in the GitHub repository.
+          </p>
+        </div>
+        <div class="cta-row">
+          <a class="button primary" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics">View GitHub Repository</a>
+          <a class="button secondary" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics/blob/main/reports/executive_report.md">Read Executive Report</a>
+        </div>
+      </section>
     </main>
+
+    <div class="chart-modal" id="chart-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-panel" role="document">
+        <button class="modal-close" type="button" aria-label="Close chart preview">Close</button>
+        <h2 id="modal-title">Chart Preview</h2>
+        <img id="modal-image" src="" alt="" />
+      </div>
+    </div>
 
     <footer class="site-footer">
       <div>
@@ -314,5 +366,7 @@
         <a href="https://portfolio-site-wheat-nu.vercel.app">Portfolio</a>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
