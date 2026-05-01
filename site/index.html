@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio case study for an alternative investment sales strategy analytics platform by Allen Xu."
+    />
+    <title>Alternative Investment Sales Strategy Analytics Platform</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top">Allen Xu</a>
+      <nav aria-label="Primary navigation">
+        <a href="#modules">Analysis</a>
+        <a href="#visuals">Visuals</a>
+        <a href="#quality">Quality</a>
+        <a href="#story">Interview Story</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-pad">
+        <div class="hero-copy">
+          <p class="eyebrow">KKR Analyst - Sales Strategy Portfolio Case Study</p>
+          <h1>Alternative Investment Sales Strategy Analytics Platform</h1>
+          <p class="hero-subtitle">
+            End-to-end analytics platform simulating how a Global Client Solutions / Wealth
+            Solutions team uses data to optimize advisor coverage, relationship manager
+            productivity, campaign ROI, and product demand across alternative investment products.
+          </p>
+          <div class="cta-row">
+            <a class="button primary" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics">View GitHub Repo</a>
+            <a class="button secondary" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics/blob/main/reports/executive_report.md">Read Executive Report</a>
+            <a class="button secondary" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics/blob/main/docs/METHODOLOGY_AND_ASSUMPTIONS.md">View Methodology</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Project summary">
+          <p class="panel-label">Portfolio Focus</p>
+          <ul>
+            <li>Sales Strategy Analytics</li>
+            <li>Global Client Solutions</li>
+            <li>Wealth Solutions Enablement</li>
+            <li>Alternative Investment Distribution</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="kpi-strip" aria-label="Key project metrics">
+        <div class="kpi-card">
+          <span>$58.8B</span>
+          <p>Expected Pipeline</p>
+        </div>
+        <div class="kpi-card">
+          <span>$6.75B</span>
+          <p>Committed Capital</p>
+        </div>
+        <div class="kpi-card">
+          <span>10.87%</span>
+          <p>Conversion Rate</p>
+        </div>
+        <div class="kpi-card">
+          <span>400</span>
+          <p>Advisors</p>
+        </div>
+        <div class="kpi-card">
+          <span>16</span>
+          <p>Relationship Managers</p>
+        </div>
+        <div class="kpi-card">
+          <span>132</span>
+          <p>High-Priority Advisors</p>
+        </div>
+      </section>
+      <p class="synthetic-note">
+        All figures are generated from deterministic synthetic data and are used to demonstrate the analytical framework.
+      </p>
+
+      <section class="section-pad" id="problem">
+        <div class="section-heading">
+          <p class="eyebrow">Business Problem</p>
+          <h2>Alternative investment distribution is long-cycle, capital-concentrated, and relationship-driven.</h2>
+          <p>
+            Leadership needs visibility into funnel drop-off, RM productivity, product demand,
+            campaign efficiency, and advisor prioritization so coverage resources can be aimed at
+            the highest-impact segments.
+          </p>
+        </div>
+        <div class="card-grid three">
+          <article class="card">
+            <h3>Long Sales Cycles</h3>
+            <p>Commitments take months to evaluate, making stage progression and time-to-close more important than top-line activity volume alone.</p>
+          </article>
+          <article class="card">
+            <h3>Concentrated Advisor Value</h3>
+            <p>A small share of advisors and channels can represent a large share of committed capital, requiring disciplined segmentation.</p>
+          </article>
+          <article class="card">
+            <h3>Need for RM Prioritization</h3>
+            <p>Relationship managers need clear next-best-action guidance to convert engagement into pipeline movement and commitments.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-pad muted" id="built">
+        <div class="section-heading compact">
+          <p class="eyebrow">What I Built</p>
+          <h2>A reproducible analytics workflow from synthetic CRM-style data to executive reporting.</h2>
+        </div>
+        <div class="workflow" aria-label="Analytics workflow">
+          <div>Synthetic Data Generator</div>
+          <div>SQLite Database</div>
+          <div>SQL + Python Analytics</div>
+          <div>Dashboard-Ready CSV Marts</div>
+          <div>Executive Charts + Report</div>
+          <div>Advisor Priority Recommendations</div>
+        </div>
+        <div class="metric-row">
+          <span>7 raw tables</span>
+          <span>6 reporting marts</span>
+          <span>5 analysis modules</span>
+          <span>4 executive charts</span>
+          <span>GitHub Actions validation</span>
+        </div>
+      </section>
+
+      <section class="section-pad" id="modules">
+        <div class="section-heading">
+          <p class="eyebrow">Analysis Modules</p>
+          <h2>Five connected analyses that mirror sales strategy and enablement use cases.</h2>
+        </div>
+        <div class="card-grid modules">
+          <article class="card">
+            <h3>Sales Funnel Conversion</h3>
+            <p><strong>Question:</strong> Where does the pipeline drop off?</p>
+            <p><strong>Output:</strong> `sales_funnel_summary.csv`</p>
+            <p>Shows stage conversion, region performance, AUM segment quality, and asset class velocity.</p>
+          </article>
+          <article class="card">
+            <h3>Relationship Manager Productivity</h3>
+            <p><strong>Question:</strong> Who is converting engagement into capital?</p>
+            <p><strong>Output:</strong> `rm_productivity_summary.csv`</p>
+            <p>Benchmarks activity, follow-up completion, conversion, and coaching opportunities.</p>
+          </article>
+          <article class="card">
+            <h3>Product Demand Analysis</h3>
+            <p><strong>Question:</strong> Which products generate demand and capital?</p>
+            <p><strong>Output:</strong> `product_demand_summary.csv`</p>
+            <p>Compares product engagement, opportunities, committed capital, and conversion by asset class.</p>
+          </article>
+          <article class="card">
+            <h3>Campaign ROI</h3>
+            <p><strong>Question:</strong> Which campaigns show strongest modeled efficiency?</p>
+            <p><strong>Output:</strong> `campaign_roi_summary.csv`</p>
+            <p>Calculates cost efficiency, qualified opportunities, attributable capital, and a fee proxy.</p>
+          </article>
+          <article class="card">
+            <h3>Advisor Priority Scoring</h3>
+            <p><strong>Question:</strong> Which advisors should RMs prioritize next?</p>
+            <p><strong>Output:</strong> `advisor_priority_scores.csv`</p>
+            <p>Combines engagement, AUM, conversion probability, product fit, and recency into explainable tiers.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-pad muted" id="visuals">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Visuals</p>
+          <h2>Executive-ready charts generated from the processed analytics marts.</h2>
+        </div>
+        <div class="visual-grid">
+          <figure class="chart-card">
+            <img src="assets/sales_funnel_conversion.png" alt="Sales funnel opportunities by stage" />
+            <figcaption>
+              <strong>Sales Funnel Conversion</strong>
+              <span>Highlights where opportunities sit by stage and the capital attached to each step.</span>
+            </figcaption>
+          </figure>
+          <figure class="chart-card">
+            <img src="assets/rm_productivity.png" alt="Relationship manager productivity leaderboard" />
+            <figcaption>
+              <strong>RM Productivity</strong>
+              <span>Compares committed capital by RM while flagging coaching opportunities.</span>
+            </figcaption>
+          </figure>
+          <figure class="chart-card">
+            <img src="assets/campaign_roi.png" alt="Campaign ROI by campaign type" />
+            <figcaption>
+              <strong>Campaign ROI</strong>
+              <span>Shows modeled committed-capital-to-cost efficiency by campaign type.</span>
+            </figcaption>
+          </figure>
+          <figure class="chart-card">
+            <img src="assets/product_demand.png" alt="Product demand by asset class" />
+            <figcaption>
+              <strong>Product Demand</strong>
+              <span>Compares committed capital and engagement across alternative asset classes.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pad" id="insights">
+        <div class="section-heading">
+          <p class="eyebrow">Key Insights</p>
+          <h2>Business findings framed for sales leadership.</h2>
+        </div>
+        <div class="insight-list">
+          <article>Northeast has the largest opportunity volume but weaker conversion.</article>
+          <article>Family Offices and Institutional Investors generate 59% of committed capital.</article>
+          <article>Private Equity and Infrastructure show stronger modeled conversion and capital efficiency.</article>
+          <article>Three RMs show high engagement but lower conversion, suggesting coaching around follow-up discipline.</article>
+          <article>Email campaigns show strongest modeled efficiency, but ROI magnitude should be interpreted directionally because the data is synthetic.</article>
+        </div>
+      </section>
+
+      <section class="section-pad muted" id="model">
+        <div class="section-heading compact">
+          <p class="eyebrow">Data Model</p>
+          <h2>CRM-style distribution analytics without confidential client data.</h2>
+          <p>
+            The data model mirrors advisor coverage, RM activity, product, opportunity, and campaign
+            relationships while using only synthetic records.
+          </p>
+        </div>
+        <div class="entity-grid">
+          <span>Advisors</span>
+          <span>Relationship Managers</span>
+          <span>Funds</span>
+          <span>Sales Activities</span>
+          <span>Opportunities</span>
+          <span>Campaigns</span>
+          <span>Campaign Engagement</span>
+        </div>
+      </section>
+
+      <section class="section-pad" id="quality">
+        <div class="section-heading">
+          <p class="eyebrow">Quality and Reproducibility</p>
+          <h2>Built to be inspectable, rerunnable, and safe to share publicly.</h2>
+        </div>
+        <div class="card-grid three">
+          <article class="card">
+            <h3>Deterministic Pipeline</h3>
+            <p>Fixed random seed 42 ensures the raw data, processed marts, KPIs, and charts can be reproduced.</p>
+          </article>
+          <article class="card">
+            <h3>Validation Coverage</h3>
+            <p>`src/validate_outputs.py` checks files, row counts, keys, KPI values, chart assets, and README embeds.</p>
+          </article>
+          <article class="card">
+            <h3>Public-Safe Data</h3>
+            <p>No real client, advisor, fund, firm, or KKR data is used. The repo includes a clear synthetic data disclosure.</p>
+          </article>
+        </div>
+        <a class="text-link" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics/blob/main/docs/DATA_QUALITY_CHECKS.md">Read Data Quality Checks</a>
+      </section>
+
+      <section class="section-pad muted" id="skills">
+        <div class="section-heading compact">
+          <p class="eyebrow">Skills Demonstrated</p>
+          <h2>Analytics, engineering, and executive communication.</h2>
+        </div>
+        <div class="tag-cloud">
+          <span>SQL</span>
+          <span>Python</span>
+          <span>pandas</span>
+          <span>SQLite</span>
+          <span>Tableau / Power BI-ready Data Modeling</span>
+          <span>Executive Reporting</span>
+          <span>ROI Analysis</span>
+          <span>Sales Strategy Analytics</span>
+          <span>Advisor Segmentation</span>
+          <span>Data Quality Checks</span>
+          <span>GitHub Actions</span>
+        </div>
+      </section>
+
+      <section class="section-pad story" id="story">
+        <p class="eyebrow">Interview Story</p>
+        <h2>How I explain this project</h2>
+        <p>
+          I built this project to simulate the type of analytics work a sales strategy team in
+          alternative asset management would do. The goal was not just to create charts, but to
+          answer business questions: where the funnel drops off, which RMs are productive, which
+          products generate demand, which campaigns show the strongest modeled ROI, and which
+          advisors should be prioritized next.
+        </p>
+        <a class="button secondary" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics/blob/main/docs/INTERVIEW_NOTES.md">Read Interview Notes</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Allen Xu</strong>
+        <p>This is a synthetic portfolio project and is not affiliated with KKR or any investment firm.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics">GitHub</a>
+        <span>LinkedIn placeholder</span>
+        <span>Portfolio placeholder</span>
+      </div>
+    </footer>
+  </body>
+</html>

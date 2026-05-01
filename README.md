@@ -28,6 +28,12 @@ The deliverables are designed to be portfolio-quality: clean SQL that mirrors th
 - Designed the project to mirror sales strategy analytics use cases in Global Client Solutions / Wealth Solutions.
 - Clearly separates synthetic data generation from analytics outputs so the pipeline is reproducible and safe to share publicly.
 
+## Project Website
+
+A recruiter-friendly project showcase website is available under [`/site`](site/). It summarizes the business problem, KPI outputs, methodology, selected visuals, data quality checks, and interview story for non-technical and technical reviewers.
+
+Deployment link can be added after publishing to Vercel or GitHub Pages.
+
 ## Quick Navigation
 
 - [Executive Report](reports/executive_report.md)
