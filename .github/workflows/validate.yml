@@ -1,0 +1,33 @@
+name: Validate Analytics Pipeline
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Generate synthetic data
+        run: python src/generate_synthetic_data.py
+
+      - name: Build SQLite database
+        run: python src/build_sqlite_database.py
+
+      - name: Run analytics pipeline
+        run: python src/run_analysis.py
+
+      - name: Create charts
+        run: python src/create_charts.py

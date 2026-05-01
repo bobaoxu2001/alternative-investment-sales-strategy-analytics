@@ -31,7 +31,7 @@ The platform was built to serve a Global Client Solutions / Global Wealth Soluti
 | 3 | **Northeast has the largest pipeline volume but middling conversion** — 432 opportunities (29% of total) yet a 8.6% commit rate, vs. 14.9% in Midwest and 14.7% in Southwest. | `sales_funnel_summary.csv` (region) |
 | 4 | **Capital is highly concentrated in $5B+ AUM advisors** — that AUM tier delivers $3.91B (58%) of committed capital from only 215 opportunities at a 13.5% commit rate. | `sales_funnel_summary.csv` (aum_segment) |
 | 5 | **Three RMs are coaching opportunities** — Nancy O'Brien (Southwest), Sarah Wright (Southeast), Nancy Sanchez (Northeast) post above-median engagement (66-68 vs. team median 62.9) but conversion of 6.5-9.2% (vs. team median 10.5%). | `rm_productivity_summary.csv` |
-| 6 | **Email campaigns crush all other channel types on ROI** — 9 email campaigns spent $56K and generated $1.08B of attributable commitments (multiple 19,000x) with the lowest cost-per-qualified-opportunity at $881. Roadshows and Product Launches absorbed 73% of campaign spend. | `campaign_roi_summary.csv` |
+| 6 | **Email campaigns show the strongest modeled campaign efficiency** — 9 email campaigns spent $56K and generated $1.08B of attributable commitments (multiple 19,000x) with the lowest cost-per-qualified-opportunity at $881. Roadshows and Product Launches absorbed 73% of campaign spend. | `campaign_roi_summary.csv` |
 | 7 | **132 advisors are high-priority**, anchored by 7 above-priority-score-0.81 advisors clustered in Northeast and Midwest (Family Office, Private Bank, Institutional). Combined estimated commitment opportunity: **$9.65B**. | `advisor_priority_scores.csv` |
 
 ## 4. Sales Funnel Insights
@@ -122,6 +122,8 @@ Top funds by committed capital:
 
 Campaign spend totaled **$1.46M** with **$2.77B of attributable committed capital** — a 1,902x committed-capital-to-cost multiple, or a 4,655% ROI under a 2.5% management-fee proxy. Channel breakdown:
 
+Given the synthetic nature of the data, these ROI multiples should be read as directional indicators of relative channel efficiency rather than production benchmarks.
+
 | Campaign Type | n | Spend | Qualified Opps | Committed Capital | Multiple | Cost / Qualified Opp |
 |---|---:|---:|---:|---:|---:|---:|
 | Email Campaign | 9 | $56K | 64 | $1.08B | 19,133x | $881 |
@@ -131,7 +133,7 @@ Campaign spend totaled **$1.46M** with **$2.77B of attributable committed capita
 | Product Launch | 5 | $417K | 37 | $0.44B | 1,058x | $11,268 |
 | Advisor Education Series | 4 | $175K | 18 | $0.10B | 558x | $9,713 |
 
-**Email campaigns are wildly more efficient than every other channel** on the platform — even after adjusting for the long-tail of attributable capital. Roadshows and Product Launches still earn their place because they are the only channels that drive deep large-ticket relationships, but **the franchise is over-allocated to high-cost channels relative to attributable returns.**
+**Email campaigns show the strongest modeled efficiency among campaign types** in this synthetic dataset, even after adjusting for the long-tail of attributable capital. Roadshows and Product Launches still earn their place because they are designed to support deeper large-ticket relationships, but the modeled results suggest the franchise should evaluate whether spend is over-allocated to higher-cost channels relative to attributable returns.
 
 ## 8. Advisor Prioritization Model
 

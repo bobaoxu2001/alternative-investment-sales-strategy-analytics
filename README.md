@@ -20,6 +20,14 @@ Alternative investment distribution is a long-cycle, capital-concentrated busine
 
 The deliverables are designed to be portfolio-quality: clean SQL that mirrors the Python, dashboard-ready CSVs, an executive narrative for senior stakeholders, and a deterministic data generator so anyone can reproduce the entire pipeline in a single command.
 
+## Project Highlights
+
+- Built a synthetic 12-month alternative investment distribution dataset with 400 advisors, 16 relationship managers, 10 funds, 7,500 sales activities, 1,500 opportunities, and 28 campaigns.
+- Created SQL and Python analytics pipelines for sales funnel conversion, relationship manager productivity, campaign ROI, product demand, and advisor prioritization.
+- Produced six dashboard-ready CSV marts, four executive charts, a Tableau / Power BI dashboard wireframe, and an executive report.
+- Designed the project to mirror sales strategy analytics use cases in Global Client Solutions / Wealth Solutions.
+- Clearly separates synthetic data generation from analytics outputs so the pipeline is reproducible and safe to share publicly.
+
 ## Why This Project
 
 The role this project simulates — analyst on a sales-strategy team at an alternative investment firm — needs analytics across exactly the dimensions modeled here:
@@ -141,12 +149,20 @@ These are computed directly from the latest pipeline run (deterministic under se
 
 - **$58.8B expected pipeline · $6.75B committed capital · 10.87% overall conversion · 150 days average to close.**
 - **Family Offices and Institutional Investors generate 59% of committed capital** despite being only 31% of opportunities.
-- **Email campaigns are 19,133× efficient** (committed capital ÷ campaign spend) — the most efficient channel by an order of magnitude. Roadshows and Product Launches absorb 73% of marketing spend but produce 1,058-1,208× multiples.
+- **Email campaigns produced the highest modeled committed-capital-to-cost multiple** in the synthetic dataset (19,133×), while Roadshows and Product Launches absorb 73% of marketing spend and produce 1,058-1,208× multiples.
 - **Three of 16 RMs are coaching opportunities** — above-median engagement (66-68 vs. team median 62.9) but conversion of 6.5-9.2% (vs. team median 10.5%). The diagnosis is follow-up completion (46-48% vs. firm best of 50%+), not access.
 - **132 of 400 advisors are high-priority**, with combined estimated commitment opportunity of **$9.65B** for next-quarter coverage planning.
 - **Northeast under-converts** — 432 opportunities (the largest book) convert at 8.6%, vs. 14.9% in Midwest and 14.7% in Southwest.
 
+Because the dataset is synthetic, ROI magnitudes should be interpreted directionally. The analytical framework is the main deliverable.
+
 See [`reports/executive_report.md`](reports/executive_report.md) for the full narrative with seven strategic recommendations.
+
+## Selected Visuals
+
+![Sales Funnel Conversion](reports/charts/sales_funnel_conversion.png)
+
+![Campaign ROI by Campaign Type](reports/charts/campaign_roi.png)
 
 ## Dashboard Design
 
