@@ -1,0 +1,29 @@
+campaign_id,campaign_name,campaign_type,start_date,end_date,target_segment,product_focus,asset_class_focus,campaign_cost,region
+C001,Private Equity Growth Equity Webinar Dec 2025,Webinar,2025-12-18,2026-01-23,RIA,Growth Equity,Private Equity,18713,National
+C002,Private Equity Growth Equity Roadshow Mar 2026,Roadshow,2026-03-11,2026-03-20,Institutional,Growth Equity,Private Equity,112742,Midwest
+C003,Real Estate Value-Add Real Estate Email Campaign May 2025,Email Campaign,2025-05-03,2025-05-21,Institutional,Value-Add Real Estate,Real Estate,5465,Southwest
+C004,Private Credit Opportunistic Credit Email Campaign Aug 2025,Email Campaign,2025-08-12,2025-09-16,Family Office,Opportunistic Credit,Private Credit,5919,Southwest
+C005,Real Estate Value-Add Real Estate Email Campaign Nov 2025,Email Campaign,2025-11-02,2025-12-03,All Wealth,Value-Add Real Estate,Real Estate,6570,National
+C006,Real Estate Opportunistic Real Estate Roadshow Sep 2025,Roadshow,2025-09-26,2025-10-11,Private Bank / Wirehouse,Opportunistic Real Estate,Real Estate,110232,International
+C007,Private Equity Growth Equity Roadshow Dec 2025,Roadshow,2025-12-13,2025-12-27,Private Bank / Wirehouse,Growth Equity,Private Equity,63156,Southwest
+C008,Private Equity Growth Equity Product Launch Feb 2026,Product Launch,2026-02-11,2026-03-07,All Wealth,Growth Equity,Private Equity,98464,National
+C009,Private Credit Opportunistic Credit Email Campaign Sep 2025,Email Campaign,2025-09-09,2025-09-28,Private Bank / Wirehouse,Opportunistic Credit,Private Credit,6908,Northeast
+C010,Private Credit Opportunistic Credit Product Launch Dec 2025,Product Launch,2025-12-27,2025-12-29,All Wealth,Opportunistic Credit,Private Credit,71572,International
+C011,Real Estate Opportunistic Real Estate Advisor Education Series Mar 2026,Advisor Education Series,2026-03-18,2026-04-14,All Channels,Opportunistic Real Estate,Real Estate,55294,National
+C012,Private Credit Direct Lending Product Launch Nov 2025,Product Launch,2025-11-21,2025-12-29,Institutional,Direct Lending,Private Credit,104621,Midwest
+C013,Private Credit Direct Lending Product Launch Jun 2025,Product Launch,2025-06-06,2025-07-03,Family Office,Direct Lending,Private Credit,64597,Northeast
+C014,Private Equity Buyout Email Campaign Feb 2026,Email Campaign,2026-02-05,2026-03-20,RIA,Buyout,Private Equity,4890,Midwest
+C015,Private Equity Growth Equity Advisor Education Series Dec 2025,Advisor Education Series,2025-12-23,2026-01-06,Private Bank / Wirehouse,Growth Equity,Private Equity,41062,Northeast
+C016,Real Estate Opportunistic Real Estate Email Campaign Feb 2026,Email Campaign,2026-02-22,2026-03-27,RIA,Opportunistic Real Estate,Real Estate,6177,West
+C017,Private Equity Growth Equity Email Campaign Oct 2025,Email Campaign,2025-10-08,2025-11-20,All Wealth,Growth Equity,Private Equity,6523,National
+C018,Private Credit Opportunistic Credit Roadshow Aug 2025,Roadshow,2025-08-24,2025-08-31,Institutional,Opportunistic Credit,Private Credit,121328,Midwest
+C019,Infrastructure Core Infrastructure Advisor Education Series Nov 2025,Advisor Education Series,2025-11-25,2025-12-14,Private Bank / Wirehouse,Core Infrastructure,Infrastructure,37310,National
+C020,Real Estate Opportunistic Real Estate Advisor Education Series Aug 2025,Advisor Education Series,2025-08-07,2025-09-19,Private Bank / Wirehouse,Opportunistic Real Estate,Real Estate,41163,National
+C021,Private Equity Buyout Product Launch Jun 2025,Product Launch,2025-06-30,2025-08-03,Family Office,Buyout,Private Equity,77672,West
+C022,Private Credit Opportunistic Credit Roadshow Jun 2025,Roadshow,2025-06-17,2025-07-24,RIA,Opportunistic Credit,Private Credit,112897,National
+C023,Infrastructure Core Infrastructure Market Outlook Event Nov 2025,Market Outlook Event,2025-11-26,2025-12-14,All Wealth,Core Infrastructure,Infrastructure,58398,National
+C024,Private Credit Opportunistic Credit Webinar Oct 2025,Webinar,2025-10-10,2025-11-12,All Wealth,Opportunistic Credit,Private Credit,18962,West
+C025,Real Estate Value-Add Real Estate Email Campaign May 2025,Email Campaign,2025-05-30,2025-06-11,All Wealth,Value-Add Real Estate,Real Estate,8195,National
+C026,Private Equity Buyout Roadshow Sep 2025,Roadshow,2025-09-24,2025-10-24,Private Bank / Wirehouse,Buyout,Private Equity,121939,West
+C027,Private Equity Buyout Market Outlook Event May 2025,Market Outlook Event,2025-05-02,2025-05-25,RIA,Buyout,Private Equity,69553,West
+C028,Real Estate Opportunistic Real Estate Email Campaign Aug 2025,Email Campaign,2025-08-18,2025-09-10,Private Bank / Wirehouse,Opportunistic Real Estate,Real Estate,5735,International

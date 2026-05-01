@@ -1,0 +1,17 @@
+rm_id,rm_name,region,tenure_years,coverage_segment,sales_team
+RM001,William Murphy,West,17,Wealth,Wealth Distribution West
+RM002,Joshua Robinson,International,10,Family Office,Family Office Coverage
+RM003,Jennifer Robinson,Southwest,19,Wealth,Wealth Distribution West
+RM004,Patricia Anderson,Midwest,14,Family Office,Family Office Coverage
+RM005,Kevin Martin,Midwest,3,Family Office,Family Office Coverage
+RM006,Ryan Torres,Northeast,17,Mixed,Wealth Distribution East
+RM007,Nancy Sanchez,Northeast,11,Wealth,Wealth Distribution East
+RM008,Robert Green,Southeast,15,Wealth,Wealth Distribution East
+RM009,Nancy O'Brien,Southwest,10,Family Office,Family Office Coverage
+RM010,Karen Jones,West,11,Wealth,Wealth Distribution West
+RM011,Betty Davis,Northeast,15,Wealth,Wealth Distribution East
+RM012,Mark Walker,West,15,Wealth,Wealth Distribution West
+RM013,Elizabeth Kim,International,14,Wealth,International Coverage
+RM014,Kevin Adams,Northeast,18,Wealth,Wealth Distribution East
+RM015,Ronald Lee,International,19,Family Office,Family Office Coverage
+RM016,Sarah Wright,Southeast,4,Institutional,Institutional Sales

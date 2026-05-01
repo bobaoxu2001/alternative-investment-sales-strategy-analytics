@@ -1,0 +1,63 @@
+dimension,value,activities,avg_engagement,opportunities,expected_pipeline,committed_deals,committed_capital,conversion_rate_pct
+asset_class,Infrastructure,1491.0,64.02,318,14103500000,37.0,1749500000,11.64
+asset_class,Private Credit,2310.0,63.84,452,16675500000,44.0,1617250000,9.73
+asset_class,Private Equity,1510.0,63.47,276,10811000000,36.0,1918750000,13.04
+asset_class,Real Estate,2189.0,63.78,454,17221000000,46.0,1462500000,10.13
+fund,F001 | Private Equity Buyout Fund VII,,,136,5203250000,17.0,1174250000,12.5
+fund,F002 | Growth Equity Partners III,,,140,5607750000,19.0,744500000,13.57
+fund,F003 | Direct Lending Income Fund V,,,137,5576500000,10.0,562000000,7.3
+fund,F004 | Opportunistic Credit Fund II,,,157,5627750000,14.0,551750000,8.92
+fund,F005 | Senior Direct Lending Fund VI,,,158,5471250000,20.0,503500000,12.66
+fund,F006 | Core Infrastructure Income Fund III,,,154,6082000000,18.0,804750000,11.69
+fund,F007 | Global Infrastructure Partners IV,,,164,8021500000,19.0,944750000,11.59
+fund,F008 | Value-Add Real Estate Fund IV,,,148,5558000000,13.0,374750000,8.78
+fund,F009 | Opportunistic Real Estate Fund VI,,,154,6750750000,15.0,508500000,9.74
+fund,F010 | Real Estate Income Fund II,,,152,4912250000,18.0,579250000,11.84
+firm_type_x_asset_class,Consultant | Infrastructure,,,22,514000000,,20000000,
+firm_type_x_asset_class,Consultant | Private Credit,,,42,966750000,,130500000,
+firm_type_x_asset_class,Consultant | Private Equity,,,18,339250000,,0,
+firm_type_x_asset_class,Consultant | Real Estate,,,32,516250000,,5000000,
+firm_type_x_asset_class,Family Office | Infrastructure,,,57,3638750000,,350250000,
+firm_type_x_asset_class,Family Office | Private Credit,,,76,3961500000,,560500000,
+firm_type_x_asset_class,Family Office | Private Equity,,,41,2056500000,,418500000,
+firm_type_x_asset_class,Family Office | Real Estate,,,82,4224500000,,767500000,
+firm_type_x_asset_class,Institutional Investor | Infrastructure,,,41,3269250000,,703500000,
+firm_type_x_asset_class,Institutional Investor | Private Credit,,,63,3864000000,,351500000,
+firm_type_x_asset_class,Institutional Investor | Private Equity,,,45,2623750000,,696500000,
+firm_type_x_asset_class,Institutional Investor | Real Estate,,,57,4533500000,,111500000,
+firm_type_x_asset_class,Private Bank | Infrastructure,,,73,2892000000,,301250000,
+firm_type_x_asset_class,Private Bank | Private Credit,,,92,4410250000,,268500000,
+firm_type_x_asset_class,Private Bank | Private Equity,,,61,3379250000,,529250000,
+firm_type_x_asset_class,Private Bank | Real Estate,,,87,3634750000,,225750000,
+firm_type_x_asset_class,RIA | Infrastructure,,,78,1262000000,,168000000,
+firm_type_x_asset_class,RIA | Private Credit,,,104,1092750000,,59500000,
+firm_type_x_asset_class,RIA | Private Equity,,,64,788250000,,82000000,
+firm_type_x_asset_class,RIA | Real Estate,,,117,1685250000,,241500000,
+firm_type_x_asset_class,Wirehouse | Infrastructure,,,47,2527500000,,206500000,
+firm_type_x_asset_class,Wirehouse | Private Credit,,,75,2380250000,,246750000,
+firm_type_x_asset_class,Wirehouse | Private Equity,,,47,1624000000,,192500000,
+firm_type_x_asset_class,Wirehouse | Real Estate,,,79,2626750000,,111250000,
+region_x_asset_class,International | Infrastructure,,,43,1220750000,,11250000,
+region_x_asset_class,International | Private Credit,,,53,1451250000,,175250000,
+region_x_asset_class,International | Private Equity,,,36,785000000,,0,
+region_x_asset_class,International | Real Estate,,,58,931750000,,30250000,
+region_x_asset_class,Midwest | Infrastructure,,,31,1672500000,,382250000,
+region_x_asset_class,Midwest | Private Credit,,,44,1428750000,,248000000,
+region_x_asset_class,Midwest | Private Equity,,,29,1402750000,,624750000,
+region_x_asset_class,Midwest | Real Estate,,,50,2771500000,,121250000,
+region_x_asset_class,Northeast | Infrastructure,,,109,5282750000,,75250000,
+region_x_asset_class,Northeast | Private Credit,,,125,5399500000,,114750000,
+region_x_asset_class,Northeast | Private Equity,,,66,3925750000,,860750000,
+region_x_asset_class,Northeast | Real Estate,,,132,5533250000,,562000000,
+region_x_asset_class,Southeast | Infrastructure,,,37,1510250000,,301750000,
+region_x_asset_class,Southeast | Private Credit,,,67,2307500000,,153000000,
+region_x_asset_class,Southeast | Private Equity,,,45,1408250000,,40500000,
+region_x_asset_class,Southeast | Real Estate,,,74,2569750000,,85750000,
+region_x_asset_class,Southwest | Infrastructure,,,44,2434250000,,429250000,
+region_x_asset_class,Southwest | Private Credit,,,50,2994750000,,456000000,
+region_x_asset_class,Southwest | Private Equity,,,42,1642250000,,221500000,
+region_x_asset_class,Southwest | Real Estate,,,55,2700500000,,551750000,
+region_x_asset_class,West | Infrastructure,,,54,1983000000,,549750000,
+region_x_asset_class,West | Private Credit,,,113,3093750000,,470250000,
+region_x_asset_class,West | Private Equity,,,58,1647000000,,171250000,
+region_x_asset_class,West | Real Estate,,,85,2714250000,,111500000,

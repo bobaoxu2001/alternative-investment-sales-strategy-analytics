@@ -1,0 +1,11 @@
+fund_id,fund_name,asset_class,strategy,vintage_year,target_return_range,liquidity_profile,minimum_commitment,risk_profile
+F001,Private Equity Buyout Fund VII,Private Equity,Buyout,2024,15-20%,Low,5000000,High
+F002,Growth Equity Partners III,Private Equity,Growth Equity,2025,18-22%,Low,5000000,Opportunistic
+F003,Direct Lending Income Fund V,Private Credit,Direct Lending,2024,9-11%,Medium,1000000,Moderate
+F004,Opportunistic Credit Fund II,Private Credit,Opportunistic Credit,2025,12-15%,Low,2500000,High
+F005,Senior Direct Lending Fund VI,Private Credit,Direct Lending,2025,8-10%,Medium,1000000,Moderate
+F006,Core Infrastructure Income Fund III,Infrastructure,Core Infrastructure,2024,7-10%,Low,2500000,Moderate
+F007,Global Infrastructure Partners IV,Infrastructure,Core Infrastructure,2025,8-12%,Low,5000000,Moderate
+F008,Value-Add Real Estate Fund IV,Real Estate,Value-Add Real Estate,2024,12-15%,Low,2500000,High
+F009,Opportunistic Real Estate Fund VI,Real Estate,Opportunistic Real Estate,2025,15-20%,Low,5000000,Opportunistic
+F010,Real Estate Income Fund II,Real Estate,Value-Add Real Estate,2025,9-12%,Medium,1000000,Moderate

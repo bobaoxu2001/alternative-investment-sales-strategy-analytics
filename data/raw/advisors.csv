@@ -1,0 +1,401 @@
+advisor_id,advisor_name,firm_name,firm_type,region,city,state,aum_segment,client_type,years_relationship,prior_alt_investment_experience,assigned_rm_id
+A0001,Thomas Nakamura,Vanguard Private Capital,Family Office,Northeast,Princeton,NJ,1B-5B,Wealth,9,Low,RM006
+A0002,Amanda Young,Ironwood Private Capital,Family Office,Northeast,Philadelphia,PA,500M-1B,Wealth,9,Medium,RM006
+A0003,Cynthia Wang,Cascade Private Bank,Private Bank,West,Denver,CO,100M-500M,Wealth,14,Low,RM001
+A0004,Donna Thompson,Coastal Private Capital,Family Office,West,San Francisco,CA,1B-5B,Wealth,14,Low,RM016
+A0005,Jason Ramirez,Eaglewood Family Office,Family Office,Northeast,New York,NY,500M-1B,Wealth,8,Medium,RM006
+A0006,Jennifer Jackson,Bayview Trust & Banking,Private Bank,West,Denver,CO,1B-5B,Wealth,17,High,RM012
+A0007,Melissa Harris,Crown Endowment,Institutional Investor,Midwest,Cleveland,OH,5B+,Institutional,1,High,RM004
+A0008,William Sanchez,Keystone Capital Advisors,RIA,West,San Francisco,CA,100M-500M,Wealth,13,Medium,RM010
+A0009,Amanda Thompson,Northstar Securities,Wirehouse,West,Los Angeles,CA,1B-5B,Wealth,3,Medium,RM010
+A0010,Sharon Reed,Crescent Wealth Management,RIA,Northeast,Philadelphia,PA,100M-500M,Wealth,6,Medium,RM007
+A0011,Thomas Clark,Evergreen Global Markets,Wirehouse,Northeast,New York,NY,1B-5B,Wealth,7,Medium,RM014
+A0012,Anthony Thomas,Summit Wealth Partners,RIA,West,San Diego,CA,100M-500M,Wealth,14,High,RM012
+A0013,Joseph Scott,Ridge Family Wealth,RIA,Northeast,Boston,MA,500M-1B,Wealth,16,Low,RM011
+A0014,Daniel Taylor,Trident Wealth Management,RIA,International,Singapore,SG,<100M,Wealth,14,Medium,RM013
+A0015,William Rodriguez,Sterling Securities,Wirehouse,International,Singapore,SG,100M-500M,Wealth,5,High,RM005
+A0016,Ashley Sanchez,Compass Family Office,Family Office,Southwest,Austin,TX,5B+,Wealth,13,Medium,RM002
+A0017,Jeffrey Wilson,Summit Family Office,Family Office,West,San Diego,CA,500M-1B,Wealth,1,Low,RM002
+A0018,Charles Reed,Northstar Securities,Wirehouse,Northeast,Princeton,NJ,5B+,Wealth,17,Medium,RM007
+A0019,Ryan Miller,Heritage Wealth Management,RIA,Northeast,Princeton,NJ,<100M,Wealth,16,Medium,RM006
+A0020,Linda White,Bayview Advisory Group,Consultant,Northeast,Stamford,CT,500M-1B,Institutional,16,Medium,RM014
+A0021,Laura Goldberg,Frontier Family Office,Family Office,West,San Francisco,CA,5B+,Wealth,10,Medium,RM010
+A0022,Kimberly Martinez,Riverstone Family Wealth,RIA,Northeast,Philadelphia,PA,100M-500M,Wealth,14,Medium,RM003
+A0023,Betty Gonzalez,Pinnacle Wealth Management,RIA,Midwest,St. Louis,MO,500M-1B,Wealth,13,High,RM001
+A0024,Donna Sullivan,Lighthouse Private Bank,Private Bank,Southeast,Tampa,FL,500M-1B,Wealth,8,Low,RM008
+A0025,Mark Allen,Pinnacle Investment Consulting,Consultant,Northeast,Princeton,NJ,<100M,Institutional,3,Medium,RM011
+A0026,Elizabeth Harris,Bayview Insurance Investments,Institutional Investor,Northeast,Princeton,NJ,500M-1B,Institutional,0,Low,RM011
+A0027,Deborah Moore,Halcyon Global Markets,Wirehouse,Northeast,Princeton,NJ,1B-5B,Wealth,13,High,RM006
+A0028,Paul Sullivan,Coastal Wealth Partners,RIA,Northeast,Princeton,NJ,<100M,Wealth,0,Medium,RM011
+A0029,Michelle Garcia,Keystone Investment Solutions,Consultant,Southeast,Nashville,TN,<100M,Institutional,14,High,RM002
+A0030,David Kim,Vanguard Family Office,Family Office,Southwest,Las Vegas,NV,1B-5B,Wealth,9,High,RM009
+A0031,Anthony Sanchez,Harbor Global Markets,Wirehouse,West,Denver,CO,100M-500M,Wealth,10,Medium,RM010
+A0032,Sarah Nakamura,Eaglewood Private Wealth,Private Bank,West,Los Angeles,CA,500M-1B,Wealth,16,Medium,RM001
+A0033,Dorothy Lewis,Crown Advisory Group,Consultant,West,Seattle,WA,500M-1B,Institutional,1,Medium,RM009
+A0034,Andrew Wright,Granite Private Capital,Family Office,Northeast,Boston,MA,5B+,Wealth,13,Low,RM014
+A0035,Anthony Nakamura,Halcyon Foundation,Institutional Investor,International,Singapore,SG,5B+,Institutional,16,Low,RM002
+A0036,Dorothy Smith,Crescent Wealth Management,RIA,Southeast,Nashville,TN,100M-500M,Wealth,8,Medium,RM008
+A0037,Ronald Miller,Northstar Securities,Wirehouse,Midwest,St. Louis,MO,500M-1B,Wealth,12,Medium,RM013
+A0038,Rebecca Kim,Crown Private Capital,Family Office,West,San Francisco,CA,1B-5B,Wealth,4,Medium,RM012
+A0039,Brian Lee,Bayview Family Wealth,RIA,West,Los Angeles,CA,1B-5B,Wealth,3,High,RM001
+A0040,Carol Chen,Eaglewood Global Markets,Wirehouse,Midwest,Cleveland,OH,500M-1B,Wealth,2,High,RM001
+A0041,Jennifer Harris,Ridge Wealth Management,Wirehouse,Southeast,Miami,FL,1B-5B,Wealth,7,Medium,RM008
+A0042,Michael Perez,Halcyon Private Bank,Private Bank,West,Los Angeles,CA,5B+,Wealth,15,Low,RM009
+A0043,Emily Jones,Evergreen Foundation,Institutional Investor,Southwest,Dallas,TX,1B-5B,Institutional,15,Low,RM003
+A0044,Donna Goldberg,Cascade Family Office,Family Office,Northeast,New York,NY,100M-500M,Wealth,0,Low,RM005
+A0045,Kenneth Patel,Halcyon Advisors LLC,RIA,Southeast,Nashville,TN,500M-1B,Wealth,2,Medium,RM016
+A0046,Donald Robinson,Crown Wealth Management,RIA,Southwest,Phoenix,AZ,<100M,Wealth,11,High,RM009
+A0047,Ashley O'Brien,Crown Family Wealth,RIA,Northeast,Princeton,NJ,<100M,Wealth,9,Medium,RM011
+A0048,Jennifer Adams,Meridian Endowment,Institutional Investor,Northeast,New York,NY,5B+,Institutional,17,Medium,RM007
+A0049,Steven Taylor,Coastal Global Markets,Wirehouse,Midwest,Minneapolis,MN,100M-500M,Wealth,9,Medium,RM011
+A0050,Mark Miller,Bayview Advisors LLC,RIA,International,Singapore,SG,100M-500M,Wealth,2,Low,RM015
+A0051,Elizabeth Thompson,Keystone Securities,Wirehouse,West,Denver,CO,1B-5B,Wealth,17,Medium,RM010
+A0052,Paul Jackson,Vanguard Trust & Banking,Private Bank,Northeast,Philadelphia,PA,500M-1B,Wealth,12,Medium,RM006
+A0053,Ashley King,Sterling Private Capital,Family Office,Southeast,Tampa,FL,500M-1B,Wealth,17,Medium,RM008
+A0054,Melissa Wilson,Compass Insurance Investments,Institutional Investor,Southwest,Austin,TX,1B-5B,Institutional,15,Medium,RM003
+A0055,Dorothy Jackson,Frontier Investment Consulting,Consultant,Northeast,New York,NY,<100M,Institutional,13,Medium,RM006
+A0056,Elizabeth Gonzalez,Atlas Investment Solutions,Consultant,Northeast,Boston,MA,1B-5B,Institutional,2,Medium,RM011
+A0057,David Hill,Crown Private Capital,Family Office,International,London,UK,500M-1B,Wealth,16,Low,RM015
+A0058,Ronald Goldberg,Halcyon Wealth Management,Wirehouse,Northeast,Stamford,CT,100M-500M,Wealth,10,High,RM007
+A0059,Ronald Green,Cascade Trust & Banking,Private Bank,International,Singapore,SG,500M-1B,Wealth,8,Low,RM002
+A0060,Sarah Hernandez,Frontier Foundation,Institutional Investor,Northeast,Philadelphia,PA,<100M,Institutional,10,Medium,RM006
+A0061,Matthew Torres,Northstar Investment Solutions,Consultant,Northeast,Boston,MA,500M-1B,Institutional,11,Medium,RM006
+A0062,George Nguyen,Keystone Trust & Banking,Private Bank,Southeast,Miami,FL,1B-5B,Wealth,9,High,RM016
+A0063,Ashley Garcia,Summit Trust & Banking,Private Bank,Southeast,Miami,FL,500M-1B,Wealth,17,Medium,RM016
+A0064,Sharon Nguyen,Liberty Trust & Banking,Private Bank,Northeast,Princeton,NJ,100M-500M,Wealth,5,Medium,RM011
+A0065,Edward King,Lighthouse Private Capital,Family Office,Northeast,Philadelphia,PA,1B-5B,Wealth,17,High,RM005
+A0066,Michael Ramirez,Ridge Foundation,Institutional Investor,Midwest,Indianapolis,IN,5B+,Institutional,7,Medium,RM002
+A0067,Ryan Green,Ironwood Endowment,Institutional Investor,Southeast,Charlotte,NC,500M-1B,Institutional,0,Low,RM016
+A0068,Ryan Wilson,Coastal Securities,Wirehouse,Midwest,Chicago,IL,5B+,Wealth,14,Low,RM004
+A0069,Patricia Lee,Eaglewood Pension Trust,Institutional Investor,Southeast,Charlotte,NC,5B+,Institutional,6,Medium,RM016
+A0070,Edward Lee,Cascade Multi-Family Office,Family Office,Midwest,Chicago,IL,5B+,Wealth,4,Medium,RM004
+A0071,Amanda Perez,Evergreen Wealth Management,Wirehouse,Southwest,Austin,TX,1B-5B,Wealth,10,Low,RM003
+A0072,Kimberly Harris,Cedar Private Bank,Private Bank,Southwest,Phoenix,AZ,5B+,Wealth,4,High,RM009
+A0073,Steven Reed,Ironwood Private Bank,Private Bank,Northeast,Stamford,CT,1B-5B,Wealth,13,Low,RM002
+A0074,Lisa Clark,Riverstone Pension Trust,Institutional Investor,Southeast,Charlotte,NC,5B+,Institutional,8,Low,RM008
+A0075,Laura Wright,Lighthouse Wealth Partners,RIA,West,San Francisco,CA,<100M,Wealth,8,High,RM001
+A0076,Joseph Walker,Compass Wealth Management,Wirehouse,Midwest,Cleveland,OH,100M-500M,Wealth,16,Medium,RM007
+A0077,Sarah Moore,Meridian Family Office,Family Office,Midwest,Minneapolis,MN,500M-1B,Wealth,6,Low,RM005
+A0078,Mark Sullivan,Halcyon Private Capital,Family Office,Southeast,Nashville,TN,1B-5B,Wealth,12,High,RM016
+A0079,Margaret Scott,Compass Advisors LLC,RIA,International,Toronto,ON,100M-500M,Wealth,14,Medium,RM015
+A0080,Joseph Walker,Cascade Foundation,Institutional Investor,Northeast,Philadelphia,PA,100M-500M,Institutional,8,Medium,RM006
+A0081,Rebecca Nguyen,Liberty Wealth Partners,RIA,West,San Francisco,CA,100M-500M,Wealth,17,Medium,RM001
+A0082,James Garcia,Sterling Wealth Partners,RIA,West,Los Angeles,CA,<100M,Wealth,8,Medium,RM003
+A0083,Kimberly Wilson,Riverstone Advisory Group,Consultant,West,Seattle,WA,100M-500M,Institutional,15,Low,RM012
+A0084,Kevin Hernandez,Harbor Insurance Investments,Institutional Investor,West,Denver,CO,<100M,Institutional,0,Low,RM012
+A0085,Kevin King,Frontier Wealth Partners,RIA,International,London,UK,<100M,Wealth,1,Medium,RM002
+A0086,Elizabeth Cohen,Northstar Advisors LLC,RIA,Southwest,Austin,TX,1B-5B,Wealth,15,Low,RM003
+A0087,Brian Patel,Harbor Securities,Wirehouse,International,Zurich,CH,5B+,Wealth,9,Medium,RM013
+A0088,Mary Flores,Pinnacle Trust & Banking,Private Bank,Northeast,Stamford,CT,100M-500M,Wealth,0,Low,RM014
+A0089,David Allen,Cornerstone Family Office,Family Office,Midwest,St. Louis,MO,500M-1B,Wealth,13,Medium,RM012
+A0090,James Robinson,Halcyon Global Markets,Wirehouse,Northeast,New York,NY,5B+,Wealth,10,Low,RM014
+A0091,Carol Williams,Liberty Global Markets,Wirehouse,Southwest,Dallas,TX,1B-5B,Wealth,2,Medium,RM009
+A0092,Timothy Chen,Cornerstone Family Wealth,RIA,Southwest,Houston,TX,100M-500M,Wealth,10,Medium,RM009
+A0093,Carol Reed,Harbor Private Capital,Family Office,West,Denver,CO,1B-5B,Wealth,16,Low,RM012
+A0094,Rebecca Scott,Cedar Securities,Wirehouse,Midwest,Cleveland,OH,500M-1B,Wealth,12,Low,RM005
+A0095,Joseph Lopez,Pinnacle Wealth Management,RIA,International,Toronto,ON,1B-5B,Wealth,15,High,RM003
+A0096,George Sullivan,Crescent Global Markets,Wirehouse,West,Denver,CO,1B-5B,Wealth,1,High,RM010
+A0097,Betty Johnson,Beacon Advisors LLC,RIA,Southwest,Las Vegas,NV,<100M,Wealth,17,Medium,RM009
+A0098,Paul Lee,Coastal Private Bank,Private Bank,Southwest,Houston,TX,100M-500M,Wealth,10,High,RM009
+A0099,Karen Rodriguez,Compass Private Wealth,Private Bank,West,San Francisco,CA,500M-1B,Wealth,0,High,RM001
+A0100,Thomas Sanchez,Beacon Advisors LLC,RIA,Northeast,Boston,MA,500M-1B,Wealth,3,Medium,RM006
+A0101,Joseph Scott,Evergreen Wealth Management,RIA,West,Seattle,WA,100M-500M,Wealth,15,Low,RM005
+A0102,Cynthia King,Halcyon Private Capital,Family Office,West,San Francisco,CA,5B+,Wealth,17,Low,RM002
+A0103,Brian King,Coastal Global Markets,Wirehouse,Northeast,Princeton,NJ,<100M,Wealth,9,Low,RM005
+A0104,Sarah Chen,Cedar Investment Solutions,Consultant,Northeast,New York,NY,500M-1B,Institutional,7,High,RM011
+A0105,Carol Garcia,Cedar Endowment,Institutional Investor,Midwest,Chicago,IL,100M-500M,Institutional,3,Low,RM004
+A0106,Stephanie Young,Lighthouse Private Wealth,Private Bank,West,San Diego,CA,100M-500M,Wealth,6,Medium,RM001
+A0107,James Adams,Compass Wealth Management,RIA,Northeast,Boston,MA,1B-5B,Wealth,5,Medium,RM004
+A0108,Laura Jones,Frontier Private Wealth,Private Bank,Southeast,Charlotte,NC,100M-500M,Wealth,17,Low,RM008
+A0109,Elizabeth Goldberg,Summit Wealth Partners,RIA,Southeast,Nashville,TN,<100M,Wealth,16,Medium,RM008
+A0110,Deborah Kim,Crown Global Markets,Wirehouse,West,Denver,CO,100M-500M,Wealth,8,Low,RM003
+A0111,Donna King,Cascade Family Wealth,RIA,International,Singapore,SG,100M-500M,Wealth,11,Low,RM006
+A0112,Cynthia Thomas,Heritage Private Wealth,Private Bank,International,Singapore,SG,1B-5B,Wealth,1,Medium,RM013
+A0113,Joshua Moore,Coastal Wealth Management,Wirehouse,Northeast,Philadelphia,PA,500M-1B,Wealth,12,Medium,RM003
+A0114,William Jones,Evergreen Wealth Management,Wirehouse,Southeast,Charlotte,NC,5B+,Wealth,15,Low,RM016
+A0115,Amanda Scott,Meridian Family Office,Family Office,West,Los Angeles,CA,5B+,Wealth,6,Medium,RM012
+A0116,Donald Flores,Riverstone Private Bank,Private Bank,Midwest,St. Louis,MO,500M-1B,Wealth,7,Medium,RM005
+A0117,Karen Torres,Bayview Trust & Banking,Private Bank,West,Denver,CO,100M-500M,Wealth,13,Low,RM010
+A0118,Joseph Goldberg,Evergreen Capital Advisors,RIA,West,Denver,CO,500M-1B,Wealth,2,Low,RM013
+A0119,Laura Robinson,Vanguard Multi-Family Office,Family Office,Northeast,Boston,MA,5B+,Wealth,13,Medium,RM007
+A0120,Lisa White,Evergreen Global Markets,Wirehouse,Northeast,Princeton,NJ,100M-500M,Wealth,0,Medium,RM009
+A0121,Karen Moore,Keystone Trust & Banking,Private Bank,Southwest,Las Vegas,NV,5B+,Wealth,12,Medium,RM010
+A0122,Ronald Murphy,Halcyon Capital Advisors,RIA,West,Seattle,WA,1B-5B,Wealth,13,High,RM006
+A0123,Joshua Thomas,Compass Private Bank,Private Bank,Midwest,Chicago,IL,100M-500M,Wealth,8,Medium,RM004
+A0124,James Williams,Pinnacle Advisory Group,Consultant,Northeast,Philadelphia,PA,1B-5B,Institutional,14,High,RM007
+A0125,Sarah Hernandez,Eaglewood Capital Advisors,RIA,Northeast,Stamford,CT,100M-500M,Wealth,0,Medium,RM013
+A0126,Melissa Wilson,Heritage Endowment,Institutional Investor,International,Zurich,CH,100M-500M,Institutional,15,Medium,RM013
+A0127,Joseph Ramirez,Heritage Family Wealth,RIA,Northeast,Stamford,CT,100M-500M,Wealth,14,High,RM014
+A0128,Ryan Moore,Compass Securities,Wirehouse,International,Singapore,SG,<100M,Wealth,8,Medium,RM002
+A0129,Jason Kim,Eaglewood Trust & Banking,Private Bank,Northeast,Boston,MA,1B-5B,Wealth,7,Medium,RM011
+A0130,Timothy Goldberg,Granite Securities,Wirehouse,Southwest,Houston,TX,5B+,Wealth,2,Medium,RM009
+A0131,Jennifer Johnson,Pinnacle Family Wealth,RIA,Northeast,Philadelphia,PA,100M-500M,Wealth,13,Low,RM006
+A0132,Deborah Williams,Granite Advisory Group,Consultant,Northeast,Princeton,NJ,1B-5B,Institutional,7,Medium,RM007
+A0133,Charles Martin,Coastal Securities,Wirehouse,Northeast,Boston,MA,1B-5B,Wealth,11,High,RM014
+A0134,Deborah Brown,Cedar Family Wealth,RIA,Northeast,Boston,MA,<100M,Wealth,17,Low,RM006
+A0135,Laura Singh,Liberty Private Bank,Private Bank,Southeast,Miami,FL,5B+,Wealth,11,Medium,RM008
+A0136,Deborah Lee,Ridge Private Capital,Family Office,West,Los Angeles,CA,1B-5B,Wealth,0,Low,RM010
+A0137,Michael Kim,Pinnacle Wealth Management,RIA,Southeast,Atlanta,GA,100M-500M,Wealth,2,Low,RM008
+A0138,Patricia Martin,Summit Private Bank,Private Bank,Southeast,Atlanta,GA,500M-1B,Wealth,3,High,RM016
+A0139,Ronald Murphy,Frontier Pension Trust,Institutional Investor,Southeast,Tampa,FL,1B-5B,Institutional,6,Medium,RM008
+A0140,Richard Garcia,Coastal Private Capital,Family Office,Northeast,Boston,MA,100M-500M,Wealth,3,Low,RM007
+A0141,Christopher Anderson,Riverstone Trust & Banking,Private Bank,Southwest,Dallas,TX,<100M,Wealth,7,High,RM003
+A0142,Emily Perez,Bayview Capital Advisors,RIA,International,Toronto,ON,<100M,Wealth,15,High,RM013
+A0143,Patricia Moore,Frontier Foundation,Institutional Investor,Southwest,Phoenix,AZ,<100M,Institutional,1,High,RM009
+A0144,Ryan Sullivan,Cedar Foundation,Institutional Investor,Northeast,Philadelphia,PA,1B-5B,Institutional,7,Medium,RM007
+A0145,Mary Young,Crescent Wealth Partners,RIA,Northeast,Stamford,CT,<100M,Wealth,12,Medium,RM006
+A0146,Karen Anderson,Liberty Foundation,Institutional Investor,Southeast,Charlotte,NC,5B+,Institutional,10,Medium,RM016
+A0147,Ashley Garcia,Compass Private Bank,Private Bank,Southeast,Atlanta,GA,100M-500M,Wealth,9,Medium,RM016
+A0148,Deborah O'Brien,Riverstone Securities,Wirehouse,Northeast,Stamford,CT,1B-5B,Wealth,10,Medium,RM011
+A0149,Ryan Smith,Atlas Private Bank,Private Bank,Northeast,Stamford,CT,5B+,Wealth,16,Medium,RM014
+A0150,Betty Harris,Summit Private Capital,Family Office,Northeast,Stamford,CT,5B+,Wealth,14,Medium,RM006
+A0151,Anthony Adams,Harbor Global Markets,Wirehouse,Southwest,Las Vegas,NV,100M-500M,Wealth,3,High,RM003
+A0152,Timothy Young,Cedar Investment Consulting,Consultant,International,Zurich,CH,<100M,Institutional,1,High,RM015
+A0153,Jeffrey Martin,Bayview Endowment,Institutional Investor,West,Los Angeles,CA,1B-5B,Institutional,2,High,RM010
+A0154,Mary Murphy,Sterling Wealth Management,RIA,Southwest,Dallas,TX,100M-500M,Wealth,8,Medium,RM002
+A0155,Paul Harris,Eaglewood Trust & Banking,Private Bank,Northeast,Stamford,CT,1B-5B,Wealth,16,Low,RM011
+A0156,Matthew Gonzalez,Trident Trust & Banking,Private Bank,Northeast,Boston,MA,<100M,Wealth,17,Low,RM004
+A0157,Nancy Johnson,Beacon Global Markets,Wirehouse,Southeast,Nashville,TN,500M-1B,Wealth,6,High,RM016
+A0158,Robert Taylor,Eaglewood Multi-Family Office,Family Office,Northeast,Princeton,NJ,500M-1B,Wealth,15,Low,RM007
+A0159,Timothy Walker,Ridge Wealth Partners,RIA,Northeast,New York,NY,100M-500M,Wealth,14,Low,RM014
+A0160,Laura Hernandez,Granite Private Wealth,Private Bank,International,Zurich,CH,100M-500M,Wealth,15,Medium,RM002
+A0161,Sharon Nakamura,Compass Advisory Group,Consultant,Southwest,Dallas,TX,1B-5B,Institutional,6,High,RM009
+A0162,Lisa Thomas,Pinnacle Family Office,Family Office,International,Zurich,CH,500M-1B,Wealth,7,Low,RM015
+A0163,Jennifer Johnson,Compass Private Bank,Private Bank,Northeast,Philadelphia,PA,5B+,Wealth,15,High,RM014
+A0164,Joseph Walker,Cascade Global Markets,Wirehouse,Northeast,Boston,MA,5B+,Wealth,2,Low,RM001
+A0165,Melissa Hernandez,Sterling Foundation,Institutional Investor,Northeast,New York,NY,1B-5B,Institutional,15,High,RM011
+A0166,Anthony King,Eaglewood Private Wealth,Private Bank,International,Singapore,SG,<100M,Wealth,6,High,RM013
+A0167,Elizabeth White,Trident Private Bank,Private Bank,Southeast,Charlotte,NC,1B-5B,Wealth,13,Low,RM008
+A0168,Ashley Johnson,Sterling Advisors LLC,RIA,International,Singapore,SG,<100M,Wealth,7,High,RM013
+A0169,Joseph Gonzalez,Ridge Trust & Banking,Private Bank,West,Seattle,WA,<100M,Wealth,11,High,RM010
+A0170,Deborah Hill,Ironwood Insurance Investments,Institutional Investor,West,San Francisco,CA,1B-5B,Institutional,14,Medium,RM012
+A0171,George Torres,Riverstone Wealth Management,Wirehouse,Southeast,Miami,FL,100M-500M,Wealth,12,Medium,RM016
+A0172,Richard Allen,Crown Global Markets,Wirehouse,Southwest,Houston,TX,1B-5B,Wealth,2,Low,RM009
+A0173,Jennifer Sullivan,Trident Pension Trust,Institutional Investor,Southeast,Miami,FL,500M-1B,Institutional,5,Low,RM016
+A0174,William Green,Pinnacle Foundation,Institutional Investor,Southeast,Miami,FL,5B+,Institutional,8,Low,RM016
+A0175,David Brown,Coastal Wealth Management,RIA,Northeast,Boston,MA,100M-500M,Wealth,4,Medium,RM007
+A0176,Nancy Martinez,Meridian Private Bank,Private Bank,Southwest,Phoenix,AZ,1B-5B,Wealth,8,Medium,RM003
+A0177,James White,Ridge Private Bank,Private Bank,Northeast,Princeton,NJ,100M-500M,Wealth,15,Low,RM014
+A0178,Timothy King,Halcyon Endowment,Institutional Investor,Midwest,Minneapolis,MN,1B-5B,Institutional,11,High,RM004
+A0179,Paul Sanchez,Frontier Global Markets,Wirehouse,International,Zurich,CH,<100M,Wealth,8,Medium,RM015
+A0180,Melissa Brown,Keystone Investment Solutions,Consultant,Southeast,Charlotte,NC,<100M,Institutional,17,High,RM008
+A0181,Emily Murphy,Coastal Trust & Banking,Private Bank,Southwest,Dallas,TX,100M-500M,Wealth,17,Low,RM003
+A0182,Matthew Brown,Keystone Capital Advisors,RIA,Northeast,Philadelphia,PA,<100M,Wealth,12,Low,RM013
+A0183,Sarah Torres,Halcyon Advisors LLC,RIA,Northeast,Boston,MA,1B-5B,Wealth,7,Low,RM014
+A0184,Jessica Adams,Northstar Family Wealth,RIA,International,Toronto,ON,100M-500M,Wealth,13,Medium,RM015
+A0185,Timothy Williams,Beacon Wealth Partners,RIA,Southwest,Las Vegas,NV,100M-500M,Wealth,16,High,RM004
+A0186,Barbara Martinez,Meridian Trust & Banking,Private Bank,Northeast,Philadelphia,PA,1B-5B,Wealth,7,Medium,RM006
+A0187,Donna Perez,Cornerstone Multi-Family Office,Family Office,Southwest,Austin,TX,5B+,Wealth,1,Medium,RM009
+A0188,Barbara Perez,Liberty Wealth Partners,RIA,Midwest,Minneapolis,MN,100M-500M,Wealth,5,High,RM004
+A0189,Thomas Davis,Summit Advisors LLC,RIA,International,Zurich,CH,<100M,Wealth,9,Low,RM015
+A0190,Joshua White,Northstar Private Bank,Private Bank,Southwest,Austin,TX,<100M,Wealth,3,High,RM009
+A0191,Steven Taylor,Granite Family Wealth,RIA,Southwest,Houston,TX,<100M,Wealth,9,Low,RM014
+A0192,Timothy Hernandez,Sterling Foundation,Institutional Investor,Midwest,Indianapolis,IN,5B+,Institutional,13,High,RM004
+A0193,Kenneth Ramirez,Sterling Wealth Management,RIA,Midwest,Indianapolis,IN,<100M,Wealth,15,High,RM004
+A0194,Ashley Patel,Meridian Wealth Partners,RIA,International,Toronto,ON,500M-1B,Wealth,14,High,RM002
+A0195,Donna Sanchez,Granite Foundation,Institutional Investor,Midwest,St. Louis,MO,1B-5B,Institutional,3,Medium,RM005
+A0196,Ryan Sanchez,Lighthouse Family Wealth,RIA,Southwest,Dallas,TX,500M-1B,Wealth,5,High,RM009
+A0197,Betty Lopez,Riverstone Multi-Family Office,Family Office,West,Los Angeles,CA,1B-5B,Wealth,5,Medium,RM010
+A0198,Lisa Thompson,Eaglewood Private Wealth,Private Bank,Northeast,Philadelphia,PA,5B+,Wealth,0,Medium,RM014
+A0199,Steven Lewis,Coastal Multi-Family Office,Family Office,Northeast,Philadelphia,PA,5B+,Wealth,14,Low,RM014
+A0200,Brian Murphy,Sterling Pension Trust,Institutional Investor,Northeast,Boston,MA,5B+,Institutional,8,Medium,RM007
+A0201,Ryan Young,Bayview Pension Trust,Institutional Investor,Southeast,Atlanta,GA,5B+,Institutional,4,High,RM008
+A0202,Jennifer Hernandez,Bayview Trust & Banking,Private Bank,International,Hong Kong,HK,100M-500M,Wealth,1,High,RM002
+A0203,Robert Wright,Coastal Investment Solutions,Consultant,Northeast,New York,NY,500M-1B,Institutional,5,Medium,RM006
+A0204,William Thompson,Northstar Private Wealth,Private Bank,Midwest,Indianapolis,IN,100M-500M,Wealth,4,Low,RM004
+A0205,Timothy Jones,Lighthouse Private Wealth,Private Bank,Northeast,Stamford,CT,1B-5B,Wealth,3,Low,RM014
+A0206,Sarah Jackson,Vanguard Endowment,Institutional Investor,Midwest,Minneapolis,MN,500M-1B,Institutional,11,Medium,RM004
+A0207,Andrew Brown,Crown Private Capital,Family Office,Southeast,Nashville,TN,1B-5B,Wealth,0,Low,RM008
+A0208,Deborah Sanchez,Vanguard Private Bank,Private Bank,Northeast,Philadelphia,PA,1B-5B,Wealth,13,Medium,RM014
+A0209,Joshua Allen,Halcyon Insurance Investments,Institutional Investor,West,San Francisco,CA,1B-5B,Institutional,2,Medium,RM010
+A0210,Laura Ramirez,Liberty Insurance Investments,Institutional Investor,West,San Francisco,CA,1B-5B,Institutional,3,Low,RM012
+A0211,Kevin Johnson,Beacon Trust & Banking,Private Bank,Northeast,Philadelphia,PA,1B-5B,Wealth,17,High,RM006
+A0212,Matthew Thomas,Crown Securities,Wirehouse,Northeast,New York,NY,100M-500M,Wealth,4,High,RM007
+A0213,Carol Thomas,Pinnacle Investment Consulting,Consultant,Southeast,Miami,FL,5B+,Institutional,12,Medium,RM016
+A0214,Stephanie Perez,Riverstone Endowment,Institutional Investor,International,Toronto,ON,1B-5B,Institutional,3,Medium,RM015
+A0215,Sharon Cohen,Crescent Private Wealth,Private Bank,Southwest,Houston,TX,5B+,Wealth,17,Medium,RM005
+A0216,Matthew Torres,Crown Wealth Management,Wirehouse,Southeast,Atlanta,GA,500M-1B,Wealth,6,Medium,RM008
+A0217,Michael Adams,Halcyon Advisory Group,Consultant,Northeast,Philadelphia,PA,100M-500M,Institutional,3,Medium,RM006
+A0218,Patricia Goldberg,Crescent Multi-Family Office,Family Office,Northeast,New York,NY,500M-1B,Wealth,0,High,RM006
+A0219,Betty Patel,Atlas Private Wealth,Private Bank,Northeast,Philadelphia,PA,500M-1B,Wealth,2,Low,RM011
+A0220,Donna Davis,Ridge Securities,Wirehouse,International,London,UK,100M-500M,Wealth,10,High,RM015
+A0221,Brian Williams,Bayview Global Markets,Wirehouse,West,Seattle,WA,500M-1B,Wealth,8,Low,RM001
+A0222,Edward Lopez,Ridge Family Office,Family Office,West,Denver,CO,1B-5B,Wealth,1,Medium,RM010
+A0223,Elizabeth Thompson,Granite Capital Advisors,RIA,Southeast,Tampa,FL,<100M,Wealth,2,High,RM008
+A0224,Laura Ramirez,Summit Foundation,Institutional Investor,Northeast,Princeton,NJ,<100M,Institutional,13,High,RM009
+A0225,Patricia King,Eaglewood Global Markets,Wirehouse,International,Toronto,ON,<100M,Wealth,8,Medium,RM016
+A0226,Ronald Lewis,Frontier Multi-Family Office,Family Office,Northeast,Philadelphia,PA,100M-500M,Wealth,9,Medium,RM006
+A0227,Carol Sanchez,Crescent Private Wealth,Private Bank,International,London,UK,100M-500M,Wealth,9,Low,RM015
+A0228,Emily Sanchez,Riverstone Private Bank,Private Bank,Southwest,Phoenix,AZ,5B+,Wealth,4,Medium,RM009
+A0229,Charles Brown,Coastal Wealth Management,RIA,International,Zurich,CH,500M-1B,Wealth,13,Low,RM002
+A0230,Anthony Patel,Eaglewood Investment Consulting,Consultant,West,Denver,CO,500M-1B,Institutional,11,Low,RM001
+A0231,Linda Williams,Vanguard Wealth Partners,RIA,Southwest,Phoenix,AZ,<100M,Wealth,8,Medium,RM003
+A0232,Andrew Taylor,Cedar Securities,Wirehouse,West,San Francisco,CA,100M-500M,Wealth,11,Low,RM012
+A0233,James Lee,Keystone Trust & Banking,Private Bank,Northeast,Philadelphia,PA,500M-1B,Wealth,3,Low,RM004
+A0234,George Chen,Eaglewood Private Bank,Private Bank,Southeast,Charlotte,NC,500M-1B,Wealth,0,Medium,RM008
+A0235,Ryan O'Brien,Crown Family Office,Family Office,Midwest,St. Louis,MO,1B-5B,Wealth,6,Medium,RM005
+A0236,Betty Garcia,Keystone Trust & Banking,Private Bank,Northeast,Philadelphia,PA,5B+,Wealth,5,Medium,RM006
+A0237,Cynthia Anderson,Northstar Wealth Management,RIA,International,Toronto,ON,<100M,Wealth,0,Medium,RM008
+A0238,Donald Flores,Keystone Securities,Wirehouse,International,London,UK,5B+,Wealth,8,Low,RM015
+A0239,Kevin Taylor,Meridian Securities,Wirehouse,Southwest,Las Vegas,NV,5B+,Wealth,7,Low,RM003
+A0240,Nancy Perez,Pinnacle Wealth Partners,RIA,Midwest,Minneapolis,MN,500M-1B,Wealth,12,Medium,RM005
+A0241,Margaret Jackson,Crown Securities,Wirehouse,West,San Francisco,CA,100M-500M,Wealth,10,Low,RM014
+A0242,Jeffrey Gonzalez,Atlas Family Office,Family Office,Northeast,Philadelphia,PA,100M-500M,Wealth,12,Medium,RM015
+A0243,George Martinez,Liberty Family Wealth,RIA,International,Zurich,CH,100M-500M,Wealth,6,High,RM013
+A0244,Thomas Kim,Summit Wealth Partners,RIA,Northeast,New York,NY,<100M,Wealth,5,Low,RM007
+A0245,Andrew Johnson,Beacon Private Bank,Private Bank,West,Seattle,WA,100M-500M,Wealth,5,High,RM010
+A0246,George Brown,Crown Wealth Management,Wirehouse,International,Singapore,SG,500M-1B,Wealth,15,High,RM002
+A0247,Sandra Garcia,Riverstone Investment Solutions,Consultant,West,San Francisco,CA,100M-500M,Institutional,8,Low,RM013
+A0248,Andrew Lewis,Keystone Wealth Partners,RIA,Southeast,Tampa,FL,500M-1B,Wealth,1,Low,RM013
+A0249,Stephanie Thompson,Cascade Private Wealth,Private Bank,West,San Diego,CA,100M-500M,Wealth,3,High,RM001
+A0250,Jessica Lee,Sterling Private Bank,Private Bank,West,Los Angeles,CA,500M-1B,Wealth,2,Medium,RM010
+A0251,James Nakamura,Frontier Investment Solutions,Consultant,Southeast,Charlotte,NC,100M-500M,Institutional,10,Low,RM007
+A0252,Jessica Rodriguez,Riverstone Advisors LLC,RIA,Southeast,Nashville,TN,500M-1B,Wealth,2,Medium,RM008
+A0253,Donald Ramirez,Heritage Securities,Wirehouse,Midwest,Minneapolis,MN,1B-5B,Wealth,1,Low,RM004
+A0254,Kimberly Jackson,Ridge Endowment,Institutional Investor,International,Singapore,SG,500M-1B,Institutional,7,Low,RM002
+A0255,George Goldberg,Riverstone Private Bank,Private Bank,Northeast,Stamford,CT,5B+,Wealth,16,High,RM014
+A0256,Matthew Taylor,Meridian Trust & Banking,Private Bank,International,London,UK,500M-1B,Wealth,16,Low,RM015
+A0257,Kimberly Scott,Liberty Capital Advisors,RIA,Midwest,Indianapolis,IN,500M-1B,Wealth,14,Medium,RM004
+A0258,Steven Sanchez,Heritage Advisors LLC,RIA,Southwest,Las Vegas,NV,100M-500M,Wealth,1,Medium,RM009
+A0259,Karen Lee,Cornerstone Wealth Partners,RIA,Northeast,Stamford,CT,<100M,Wealth,12,High,RM007
+A0260,Jason Goldberg,Northstar Global Markets,Wirehouse,West,Seattle,WA,5B+,Wealth,1,Medium,RM001
+A0261,Mary Miller,Ridge Private Wealth,Private Bank,Midwest,Cleveland,OH,<100M,Wealth,0,Medium,RM005
+A0262,Ronald Lewis,Lighthouse Securities,Wirehouse,Southwest,Austin,TX,1B-5B,Wealth,0,Medium,RM009
+A0263,Rebecca Jackson,Ridge Multi-Family Office,Family Office,Northeast,New York,NY,500M-1B,Wealth,5,Low,RM014
+A0264,Ryan Rodriguez,Ridge Private Capital,Family Office,Southwest,Houston,TX,100M-500M,Wealth,10,Medium,RM003
+A0265,Laura Flores,Halcyon Multi-Family Office,Family Office,West,Denver,CO,<100M,Wealth,5,Medium,RM001
+A0266,Margaret Thomas,Crescent Trust & Banking,Private Bank,West,Denver,CO,100M-500M,Wealth,16,High,RM010
+A0267,Thomas Martinez,Bayview Family Wealth,RIA,Northeast,Boston,MA,100M-500M,Wealth,14,High,RM007
+A0268,Jessica Perez,Halcyon Wealth Partners,RIA,Northeast,Philadelphia,PA,100M-500M,Wealth,3,Low,RM007
+A0269,Charles Davis,Crown Global Markets,Wirehouse,Southeast,Charlotte,NC,500M-1B,Wealth,1,High,RM008
+A0270,John Ramirez,Ridge Wealth Management,Wirehouse,West,Denver,CO,<100M,Wealth,5,Medium,RM012
+A0271,Rebecca Brown,Vanguard Investment Solutions,Consultant,Northeast,Princeton,NJ,<100M,Institutional,13,Medium,RM014
+A0272,Cynthia Perez,Harbor Private Capital,Family Office,West,Los Angeles,CA,500M-1B,Wealth,14,Low,RM012
+A0273,Deborah Thompson,Cascade Private Capital,Family Office,West,San Francisco,CA,1B-5B,Wealth,6,Medium,RM012
+A0274,David Patel,Lighthouse Private Bank,Private Bank,West,Seattle,WA,100M-500M,Wealth,10,Low,RM001
+A0275,Michael Williams,Heritage Family Wealth,RIA,Midwest,St. Louis,MO,<100M,Wealth,3,Low,RM005
+A0276,Nancy Walker,Summit Wealth Partners,RIA,Midwest,St. Louis,MO,100M-500M,Wealth,10,High,RM005
+A0277,Susan Nakamura,Evergreen Family Wealth,RIA,Northeast,Boston,MA,100M-500M,Wealth,8,High,RM006
+A0278,Sharon Robinson,Evergreen Wealth Management,Wirehouse,Northeast,Princeton,NJ,100M-500M,Wealth,17,Medium,RM011
+A0279,David Brown,Keystone Advisors LLC,RIA,Southeast,Nashville,TN,<100M,Wealth,13,Low,RM008
+A0280,John Brown,Evergreen Advisors LLC,RIA,Midwest,Chicago,IL,1B-5B,Wealth,11,High,RM004
+A0281,Barbara Sullivan,Cascade Global Markets,Wirehouse,Southwest,Las Vegas,NV,100M-500M,Wealth,3,Medium,RM009
+A0282,Steven Jackson,Frontier Foundation,Institutional Investor,Midwest,Indianapolis,IN,500M-1B,Institutional,10,Low,RM005
+A0283,Barbara Wright,Heritage Wealth Management,Wirehouse,West,San Diego,CA,1B-5B,Wealth,14,Medium,RM010
+A0284,Timothy Robinson,Evergreen Wealth Partners,RIA,Southeast,Tampa,FL,<100M,Wealth,1,Medium,RM016
+A0285,Sarah Jackson,Ridge Advisory Group,Consultant,Northeast,New York,NY,500M-1B,Institutional,15,Medium,RM011
+A0286,Barbara Rodriguez,Cedar Private Wealth,Private Bank,Southeast,Nashville,TN,<100M,Wealth,16,Medium,RM008
+A0287,Ronald Adams,Trident Private Wealth,Private Bank,Northeast,Princeton,NJ,1B-5B,Wealth,10,Medium,RM006
+A0288,Rebecca Scott,Sterling Private Wealth,Private Bank,International,London,UK,<100M,Wealth,9,Low,RM015
+A0289,Sandra Kim,Ridge Wealth Partners,RIA,Southwest,Phoenix,AZ,500M-1B,Wealth,15,High,RM008
+A0290,Margaret Singh,Bayview Securities,Wirehouse,International,London,UK,1B-5B,Wealth,1,Low,RM015
+A0291,Nancy Rodriguez,Cedar Wealth Management,RIA,Southwest,Houston,TX,100M-500M,Wealth,14,Medium,RM003
+A0292,Deborah Wilson,Atlas Wealth Management,RIA,International,Toronto,ON,1B-5B,Wealth,11,Medium,RM016
+A0293,David Lee,Compass Pension Trust,Institutional Investor,Midwest,Cleveland,OH,1B-5B,Institutional,14,Medium,RM001
+A0294,Daniel Williams,Halcyon Trust & Banking,Private Bank,West,Seattle,WA,100M-500M,Wealth,3,Medium,RM012
+A0295,Karen Thomas,Vanguard Wealth Management,Wirehouse,West,Seattle,WA,1B-5B,Wealth,17,Low,RM009
+A0296,Brian Wilson,Sterling Family Wealth,RIA,West,San Francisco,CA,100M-500M,Wealth,10,Medium,RM001
+A0297,Donna Walker,Ironwood Multi-Family Office,Family Office,Northeast,Stamford,CT,5B+,Wealth,8,Medium,RM006
+A0298,Sharon Lee,Summit Family Office,Family Office,Southeast,Nashville,TN,5B+,Wealth,15,Low,RM008
+A0299,Richard Harris,Granite Trust & Banking,Private Bank,Northeast,Boston,MA,100M-500M,Wealth,15,High,RM006
+A0300,Jennifer Martin,Coastal Advisors LLC,RIA,Southeast,Tampa,FL,<100M,Wealth,16,High,RM008
+A0301,Michael Davis,Liberty Trust & Banking,Private Bank,West,San Diego,CA,1B-5B,Wealth,14,Medium,RM012
+A0302,George Jones,Heritage Pension Trust,Institutional Investor,West,Los Angeles,CA,5B+,Institutional,8,Low,RM001
+A0303,Nancy Gonzalez,Crescent Foundation,Institutional Investor,Southwest,Austin,TX,5B+,Institutional,16,Medium,RM014
+A0304,John Young,Frontier Private Wealth,Private Bank,Southeast,Charlotte,NC,100M-500M,Wealth,15,Medium,RM016
+A0305,Daniel Hernandez,Ridge Wealth Management,Wirehouse,Southeast,Miami,FL,100M-500M,Wealth,14,Medium,RM007
+A0306,Melissa Smith,Ironwood Capital Advisors,RIA,Southwest,Phoenix,AZ,1B-5B,Wealth,15,High,RM009
+A0307,Richard Perez,Coastal Private Capital,Family Office,West,Los Angeles,CA,500M-1B,Wealth,9,Low,RM014
+A0308,Sandra Walker,Trident Trust & Banking,Private Bank,Southwest,Dallas,TX,500M-1B,Wealth,16,Low,RM003
+A0309,Sandra Sanchez,Compass Global Markets,Wirehouse,Southeast,Atlanta,GA,500M-1B,Wealth,4,Medium,RM008
+A0310,Stephanie Anderson,Harbor Family Office,Family Office,Southwest,Austin,TX,500M-1B,Wealth,10,Low,RM010
+A0311,Elizabeth Sullivan,Cedar Private Capital,Family Office,Midwest,Minneapolis,MN,500M-1B,Wealth,1,High,RM004
+A0312,Lisa Murphy,Lighthouse Advisors LLC,RIA,Southwest,Las Vegas,NV,500M-1B,Wealth,12,Medium,RM009
+A0313,Charles Gonzalez,Pinnacle Family Office,Family Office,West,Denver,CO,500M-1B,Wealth,10,High,RM013
+A0314,Susan Moore,Sterling Wealth Management,RIA,Northeast,Stamford,CT,<100M,Wealth,17,Low,RM016
+A0315,Margaret Martinez,Cornerstone Investment Solutions,Consultant,Southeast,Charlotte,NC,100M-500M,Institutional,15,Low,RM016
+A0316,Dorothy Johnson,Pinnacle Insurance Investments,Institutional Investor,West,Denver,CO,<100M,Institutional,4,Medium,RM001
+A0317,Charles Chen,Vanguard Family Office,Family Office,Northeast,New York,NY,1B-5B,Wealth,3,Medium,RM011
+A0318,Mary Sullivan,Beacon Capital Advisors,RIA,Midwest,Indianapolis,IN,<100M,Wealth,13,High,RM005
+A0319,Ashley Torres,Crescent Private Capital,Family Office,Northeast,Philadelphia,PA,5B+,Wealth,7,High,RM014
+A0320,Anthony Jones,Evergreen Private Bank,Private Bank,Northeast,Stamford,CT,<100M,Wealth,15,High,RM009
+A0321,Andrew Martin,Ironwood Insurance Investments,Institutional Investor,Northeast,Boston,MA,<100M,Institutional,9,Low,RM014
+A0322,Nancy Taylor,Beacon Family Wealth,RIA,Northeast,Philadelphia,PA,<100M,Wealth,12,Medium,RM006
+A0323,Betty Flores,Beacon Private Wealth,Private Bank,Southeast,Charlotte,NC,1B-5B,Wealth,14,Medium,RM016
+A0324,Cynthia Smith,Frontier Trust & Banking,Private Bank,Southeast,Nashville,TN,1B-5B,Wealth,1,Medium,RM008
+A0325,Jason Rodriguez,Summit Private Bank,Private Bank,Northeast,Boston,MA,1B-5B,Wealth,3,Medium,RM006
+A0326,Kimberly Wilson,Liberty Capital Advisors,RIA,Northeast,Princeton,NJ,100M-500M,Wealth,16,Low,RM014
+A0327,Patricia Sanchez,Cornerstone Pension Trust,Institutional Investor,Midwest,Indianapolis,IN,5B+,Institutional,14,Medium,RM004
+A0328,Michelle Martin,Ironwood Private Wealth,Private Bank,Northeast,Princeton,NJ,500M-1B,Wealth,11,Low,RM013
+A0329,Amanda Wilson,Crown Family Office,Family Office,West,Denver,CO,500M-1B,Wealth,6,Low,RM001
+A0330,Margaret Taylor,Trident Private Capital,Family Office,Northeast,Philadelphia,PA,500M-1B,Wealth,5,High,RM007
+A0331,Ryan Thompson,Evergreen Trust & Banking,Private Bank,International,Zurich,CH,1B-5B,Wealth,3,Low,RM013
+A0332,Sharon Gonzalez,Cascade Family Wealth,RIA,West,Los Angeles,CA,100M-500M,Wealth,11,Medium,RM001
+A0333,David Perez,Compass Wealth Management,RIA,Northeast,Philadelphia,PA,<100M,Wealth,9,Low,RM006
+A0334,Susan Thompson,Summit Global Markets,Wirehouse,Northeast,New York,NY,100M-500M,Wealth,16,Low,RM007
+A0335,Steven Reed,Ridge Pension Trust,Institutional Investor,Northeast,New York,NY,1B-5B,Institutional,7,Low,RM006
+A0336,David White,Halcyon Trust & Banking,Private Bank,Southeast,Nashville,TN,500M-1B,Wealth,6,Medium,RM005
+A0337,Timothy Rodriguez,Sterling Insurance Investments,Institutional Investor,International,Zurich,CH,1B-5B,Institutional,2,Medium,RM002
+A0338,Kevin Nakamura,Halcyon Wealth Management,RIA,Northeast,Stamford,CT,1B-5B,Wealth,0,Low,RM007
+A0339,Mark Martin,Pinnacle Wealth Management,Wirehouse,Midwest,Indianapolis,IN,1B-5B,Wealth,9,Low,RM004
+A0340,Karen Hill,Granite Foundation,Institutional Investor,Southeast,Charlotte,NC,1B-5B,Institutional,4,Low,RM016
+A0341,Brian Thompson,Bayview Investment Consulting,Consultant,International,Hong Kong,HK,<100M,Institutional,9,High,RM002
+A0342,Jason Nakamura,Sterling Capital Advisors,RIA,Southwest,Phoenix,AZ,500M-1B,Wealth,6,Low,RM003
+A0343,Jason Garcia,Crown Insurance Investments,Institutional Investor,Northeast,Boston,MA,5B+,Institutional,2,Medium,RM004
+A0344,Mark Hernandez,Ironwood Wealth Partners,RIA,West,Los Angeles,CA,100M-500M,Wealth,2,High,RM001
+A0345,Andrew Singh,Meridian Private Capital,Family Office,Southeast,Charlotte,NC,1B-5B,Wealth,14,Low,RM016
+A0346,Steven Murphy,Harbor Wealth Partners,RIA,Southeast,Atlanta,GA,<100M,Wealth,10,High,RM016
+A0347,Deborah Scott,Bayview Securities,Wirehouse,Southwest,Dallas,TX,500M-1B,Wealth,15,Low,RM003
+A0348,Jennifer Perez,Northstar Global Markets,Wirehouse,Southwest,Las Vegas,NV,100M-500M,Wealth,10,Low,RM003
+A0349,Anthony Nguyen,Sterling Wealth Partners,RIA,Northeast,Stamford,CT,1B-5B,Wealth,15,High,RM014
+A0350,Brian Allen,Frontier Private Bank,Private Bank,Northeast,Stamford,CT,100M-500M,Wealth,10,Medium,RM007
+A0351,Mark Nakamura,Cedar Investment Consulting,Consultant,Northeast,Boston,MA,500M-1B,Institutional,6,Low,RM007
+A0352,Barbara Young,Ironwood Multi-Family Office,Family Office,International,Toronto,ON,1B-5B,Wealth,6,High,RM002
+A0353,Charles Wright,Evergreen Multi-Family Office,Family Office,Midwest,Cleveland,OH,5B+,Wealth,14,High,RM004
+A0354,Sandra Harris,Atlas Family Office,Family Office,Northeast,Boston,MA,1B-5B,Wealth,2,Low,RM014
+A0355,Karen Lee,Granite Trust & Banking,Private Bank,Northeast,Boston,MA,100M-500M,Wealth,16,Low,RM010
+A0356,Edward Robinson,Ridge Private Bank,Private Bank,Midwest,Cleveland,OH,<100M,Wealth,15,High,RM002
+A0357,Susan Miller,Cornerstone Global Markets,Wirehouse,West,San Francisco,CA,100M-500M,Wealth,5,High,RM010
+A0358,Sharon Perez,Lighthouse Capital Advisors,RIA,West,Denver,CO,100M-500M,Wealth,16,High,RM012
+A0359,Emily Wilson,Harbor Capital Advisors,RIA,International,London,UK,<100M,Wealth,16,Low,RM013
+A0360,Karen Hill,Ironwood Private Capital,Family Office,International,Hong Kong,HK,1B-5B,Wealth,3,High,RM013
+A0361,Mark Wright,Harbor Family Office,Family Office,West,Denver,CO,1B-5B,Wealth,13,Low,RM001
+A0362,Betty Brown,Meridian Family Wealth,RIA,Northeast,Stamford,CT,100M-500M,Wealth,3,Medium,RM014
+A0363,Steven Garcia,Evergreen Pension Trust,Institutional Investor,Northeast,Stamford,CT,1B-5B,Institutional,4,High,RM012
+A0364,Charles Allen,Meridian Wealth Management,RIA,Southwest,Phoenix,AZ,500M-1B,Wealth,17,Low,RM003
+A0365,Sarah Martinez,Pinnacle Family Office,Family Office,Southwest,Austin,TX,1B-5B,Wealth,2,Medium,RM011
+A0366,Patricia Nakamura,Riverstone Wealth Management,RIA,Northeast,Philadelphia,PA,100M-500M,Wealth,5,High,RM014
+A0367,Susan Garcia,Cascade Family Office,Family Office,International,Hong Kong,HK,1B-5B,Wealth,9,Medium,RM002
+A0368,Kenneth Jackson,Cascade Family Office,Family Office,International,London,UK,1B-5B,Wealth,15,Medium,RM008
+A0369,Deborah Martinez,Summit Pension Trust,Institutional Investor,Northeast,New York,NY,500M-1B,Institutional,17,Medium,RM011
+A0370,Mary Wilson,Vanguard Wealth Management,RIA,Southwest,Dallas,TX,<100M,Wealth,12,Medium,RM009
+A0371,Steven Adams,Compass Advisors LLC,RIA,West,Los Angeles,CA,<100M,Wealth,14,Medium,RM009
+A0372,Michael O'Brien,Granite Trust & Banking,Private Bank,International,Hong Kong,HK,<100M,Wealth,6,Medium,RM002
+A0373,Andrew Smith,Trident Wealth Partners,RIA,Midwest,St. Louis,MO,500M-1B,Wealth,1,Low,RM005
+A0374,Edward O'Brien,Evergreen Private Capital,Family Office,Southwest,Houston,TX,1B-5B,Wealth,3,Medium,RM009
+A0375,Donald Rodriguez,Summit Capital Advisors,RIA,West,San Francisco,CA,100M-500M,Wealth,8,Low,RM010
+A0376,Sharon Nakamura,Heritage Private Bank,Private Bank,West,San Diego,CA,5B+,Wealth,2,Medium,RM012
+A0377,Donald Robinson,Coastal Investment Consulting,Consultant,West,Los Angeles,CA,100M-500M,Institutional,17,Low,RM013
+A0378,Robert Smith,Granite Capital Advisors,RIA,Southwest,Austin,TX,100M-500M,Wealth,12,Low,RM003
+A0379,Christopher Sullivan,Compass Capital Advisors,RIA,West,San Diego,CA,<100M,Wealth,16,Medium,RM010
+A0380,Sandra Thompson,Vanguard Family Office,Family Office,Southeast,Nashville,TN,1B-5B,Wealth,5,Low,RM003
+A0381,Ronald Wright,Summit Family Wealth,RIA,Midwest,Cleveland,OH,<100M,Wealth,2,Low,RM004
+A0382,Sandra Gonzalez,Frontier Private Bank,Private Bank,West,Seattle,WA,1B-5B,Wealth,17,High,RM010
+A0383,Anthony Wilson,Lighthouse Advisors LLC,RIA,West,San Diego,CA,1B-5B,Wealth,1,Low,RM010
+A0384,Jeffrey Patel,Eaglewood Wealth Management,RIA,Northeast,Stamford,CT,100M-500M,Wealth,9,Medium,RM006
+A0385,Melissa Taylor,Compass Family Office,Family Office,West,Seattle,WA,100M-500M,Wealth,17,Medium,RM001
+A0386,Ronald Singh,Sterling Global Markets,Wirehouse,Southwest,Austin,TX,1B-5B,Wealth,4,High,RM003
+A0387,Christopher Lewis,Vanguard Advisors LLC,RIA,Northeast,Stamford,CT,100M-500M,Wealth,14,Medium,RM006
+A0388,Donald Harris,Evergreen Investment Solutions,Consultant,West,Los Angeles,CA,<100M,Institutional,14,Medium,RM012
+A0389,Mary Moore,Beacon Wealth Management,RIA,Midwest,Minneapolis,MN,<100M,Wealth,5,Medium,RM004
+A0390,Christopher Anderson,Crescent Multi-Family Office,Family Office,West,Los Angeles,CA,1B-5B,Wealth,10,Medium,RM001
+A0391,James Cohen,Sterling Family Office,Family Office,West,Seattle,WA,100M-500M,Wealth,15,Low,RM012
+A0392,Betty Taylor,Eaglewood Private Bank,Private Bank,Southeast,Nashville,TN,<100M,Wealth,5,High,RM009
+A0393,Jeffrey Sullivan,Sterling Wealth Management,RIA,International,Singapore,SG,500M-1B,Wealth,2,Low,RM013
+A0394,Sharon Chen,Granite Insurance Investments,Institutional Investor,Midwest,Minneapolis,MN,<100M,Institutional,1,Medium,RM005
+A0395,Robert Singh,Trident Investment Solutions,Consultant,Southeast,Nashville,TN,500M-1B,Institutional,7,Low,RM002
+A0396,Donald Robinson,Cascade Wealth Management,RIA,Southeast,Charlotte,NC,500M-1B,Wealth,5,Low,RM016
+A0397,Sandra Jackson,Heritage Family Wealth,RIA,Southeast,Miami,FL,1B-5B,Wealth,1,Low,RM013
+A0398,Deborah Flores,Vanguard Capital Advisors,RIA,Southeast,Charlotte,NC,1B-5B,Wealth,10,High,RM007
+A0399,Anthony Smith,Crescent Global Markets,Wirehouse,Northeast,Stamford,CT,100M-500M,Wealth,5,Low,RM006
+A0400,Kenneth Nguyen,Crown Private Bank,Private Bank,Northeast,Boston,MA,5B+,Wealth,5,High,RM006

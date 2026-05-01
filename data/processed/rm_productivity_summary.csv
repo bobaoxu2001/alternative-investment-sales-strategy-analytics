@@ -1,0 +1,17 @@
+rm_id,rm_name,region,tenure_years,coverage_segment,sales_team,total_activities,avg_engagement,completed_followups,followup_completion_rate_pct,total_opps,committed_count,lost_count,conversion_rate_pct,total_pipeline,committed_capital,pipeline_per_meeting_usd,commitment_per_meeting_usd,avg_days_to_close,coaching_flag
+RM002,Joshua Robinson,International,10,Family Office,Family Office Coverage,456,62.7,204,44.74,94,14,14,14.89,3691500000,841500000.0,8095395.0,1845395.0,131.3,On Track
+RM004,Patricia Anderson,Midwest,14,Family Office,Family Office Coverage,456,65.8,214,46.93,94,15,9,15.96,6384000000,795500000.0,14000000.0,1744518.0,138.0,On Track
+RM006,Ryan Torres,Northeast,17,Mixed,Wealth Distribution East,750,63.73,325,43.33,122,13,20,10.66,4361750000,754500000.0,5815667.0,1006000.0,127.0,On Track
+RM012,Mark Walker,West,15,Wealth,Wealth Distribution West,375,63.06,165,44.0,95,14,13,14.74,3853250000,713500000.0,10275333.0,1902667.0,130.7,On Track
+RM009,Nancy O'Brien,Southwest,10,Family Office,Family Office Coverage,555,68.25,256,46.13,109,8,15,7.34,5018500000,702000000.0,9042342.0,1264865.0,114.6,Coaching Opportunity
+RM014,Kevin Adams,Northeast,18,Wealth,Wealth Distribution East,602,61.86,254,42.19,117,8,18,6.84,8659750000,538500000.0,14384967.0,894518.0,119.5,On Track
+RM003,Jennifer Robinson,Southwest,19,Wealth,Wealth Distribution West,544,60.72,240,44.12,84,16,14,19.05,2268500000,471750000.0,4170037.0,867188.0,132.8,On Track
+RM001,William Murphy,West,17,Wealth,Wealth Distribution West,396,66.36,165,41.67,93,13,14,13.98,2391750000,374250000.0,6039773.0,945076.0,134.7,On Track
+RM005,Kevin Martin,Midwest,3,Family Office,Family Office Coverage,346,62.59,153,44.22,73,11,12,15.07,2162000000,353500000.0,6248555.0,1021676.0,124.3,On Track
+RM010,Karen Jones,West,11,Wealth,Wealth Distribution West,487,66.26,221,45.38,103,11,12,10.68,4061000000,325750000.0,8338809.0,668891.0,116.6,On Track
+RM008,Robert Green,Southeast,15,Wealth,Wealth Distribution East,484,60.46,185,38.22,100,9,20,9.0,3465750000,285750000.0,7160640.0,590393.0,129.9,On Track
+RM016,Sarah Wright,Southeast,4,Institutional,Institutional Sales,627,66.24,299,47.69,108,7,20,6.48,4694750000,262500000.0,7487640.0,418660.0,108.2,Coaching Opportunity
+RM013,Elizabeth Kim,International,14,Wealth,International Coverage,343,61.03,141,41.11,96,5,16,5.21,1818250000,112750000.0,5301020.0,328717.0,125.2,On Track
+RM011,Betty Davis,Northeast,15,Wealth,Wealth Distribution East,379,61.9,172,45.38,67,5,5,7.46,1868500000,95500000.0,4930079.0,251979.0,127.4,On Track
+RM007,Nancy Sanchez,Northeast,11,Wealth,Wealth Distribution East,495,66.13,230,46.46,87,8,9,9.2,3446500000,83000000.0,6962626.0,167677.0,124.1,Coaching Opportunity
+RM015,Ronald Lee,International,19,Family Office,Family Office Coverage,205,58.76,84,40.98,58,6,7,10.34,665250000,37750000.0,3245122.0,184146.0,134.2,On Track
