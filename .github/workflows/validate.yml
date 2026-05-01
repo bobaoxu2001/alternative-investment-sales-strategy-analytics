@@ -31,3 +31,6 @@ jobs:
 
       - name: Create charts
         run: python src/create_charts.py
+
+      - name: Validate generated outputs
+        run: python src/validate_outputs.py

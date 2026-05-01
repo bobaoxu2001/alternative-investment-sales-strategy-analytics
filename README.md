@@ -28,6 +28,16 @@ The deliverables are designed to be portfolio-quality: clean SQL that mirrors th
 - Designed the project to mirror sales strategy analytics use cases in Global Client Solutions / Wealth Solutions.
 - Clearly separates synthetic data generation from analytics outputs so the pipeline is reproducible and safe to share publicly.
 
+## Quick Navigation
+
+- [Executive Report](reports/executive_report.md)
+- [Methodology and Assumptions](docs/METHODOLOGY_AND_ASSUMPTIONS.md)
+- [Data Quality Checks](docs/DATA_QUALITY_CHECKS.md)
+- [Interview Notes](docs/INTERVIEW_NOTES.md)
+- [Dashboard Wireframe](dashboard/dashboard_wireframe.md)
+- [SQL Analysis](sql/)
+- [Python Pipeline](src/)
+
 ## Why This Project
 
 The role this project simulates — analyst on a sales-strategy team at an alternative investment firm — needs analytics across exactly the dimensions modeled here:
@@ -116,16 +126,23 @@ alternative-investment-sales-strategy-analytics/
 │   ├── generate_synthetic_data.py
 │   ├── build_sqlite_database.py
 │   ├── run_analysis.py
-│   └── create_charts.py
+│   ├── create_charts.py
+│   └── validate_outputs.py
 │
 ├── reports/
 │   ├── executive_report.md
 │   └── charts/                   ← 4 PNGs
 │
-└── dashboard/
-    ├── tableau_powerbi_notes.md
-    ├── dashboard_data_model.md
-    └── dashboard_wireframe.md
+├── dashboard/
+│   ├── tableau_powerbi_notes.md
+│   ├── dashboard_data_model.md
+│   └── dashboard_wireframe.md
+│
+└── docs/
+    ├── INTERVIEW_NOTES.md
+    ├── METHODOLOGY_AND_ASSUMPTIONS.md
+    ├── DATA_QUALITY_CHECKS.md
+    └── GITHUB_REPO_PRESENTATION.md
 ```
 
 ## How to Run
@@ -139,6 +156,7 @@ python3.11 src/generate_synthetic_data.py     # Step 1: write 7 raw CSVs
 python3.11 src/build_sqlite_database.py       # Step 2: load CSVs into SQLite
 python3.11 src/run_analysis.py                # Step 3: compute 6 processed marts
 python3.11 src/create_charts.py               # Step 4: render 4 executive PNGs
+python3.11 src/validate_outputs.py            # Step 5: validate outputs and QA checks
 ```
 
 Each step prints row counts so you can verify the pipeline. The SQL files in `sql/` are reference implementations for the Python analyses and can be executed against `data/processed/alternative_investment_sales.db`.
@@ -184,6 +202,13 @@ Four pages, designed for senior stakeholders and operational sales teams. Full w
 - ROI analysis: cost-per-qualified-opportunity, committed-capital multiples, channel efficiency benchmarking
 - Executive communication: structured Markdown briefing for senior leadership
 - Data engineering: SQLite database build, deterministic generation, indexed joins
+
+## Supporting Documentation
+
+- [Methodology and Assumptions](docs/METHODOLOGY_AND_ASSUMPTIONS.md) explains the synthetic data design, scoring logic, ROI interpretation, limitations, and production extensions.
+- [Data Quality Checks](docs/DATA_QUALITY_CHECKS.md) summarizes the deterministic output checks and validation coverage.
+- [Interview Notes](docs/INTERVIEW_NOTES.md) helps Allen explain the project clearly in behavioral and technical interviews.
+- [GitHub Repository Presentation](docs/GITHUB_REPO_PRESENTATION.md) outlines how recruiters and technical reviewers can navigate the repository.
 
 ## Future Improvements
 
