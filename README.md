@@ -1,6 +1,7 @@
 # Alternative Investment Sales Strategy Analytics Platform
 
 **Author:** Allen Xu
+**Project Website:** [Live Showcase](https://alternative-investment-sales-strategy-analytics-matlvkct2.vercel.app)
 
 End-to-end analytics platform that simulates how a Global Client Solutions / Global Wealth Solutions team at an alternative investment firm uses data to drive sales strategy, advisor coverage, product distribution, and campaign ROI. Built entirely on a synthetic but realistic 12-month dataset (400 advisors, 16 RMs, 10 funds, 28 campaigns, 7,500 sales activities, 1,500 opportunities, ~1,400 campaign-engagement records).
 
@@ -30,16 +31,17 @@ The deliverables are designed to be portfolio-quality: clean SQL that mirrors th
 
 ## Project Website
 
-A recruiter-friendly project showcase website is available under [`/site`](site/). It summarizes the business problem, KPI outputs, methodology, selected visuals, data quality checks, and interview story for non-technical and technical reviewers.
+View the recruiter-friendly project showcase website:
 
-Deployment link can be added after publishing to Vercel or GitHub Pages.
+[Project Showcase](https://alternative-investment-sales-strategy-analytics-matlvkct2.vercel.app)
+
+The website summarizes the business problem, KPI outputs, executive snapshot, methodology, selected visuals, data quality checks, documentation, and reproducible analytics workflow for non-technical and technical reviewers.
 
 ## Quick Navigation
 
 - [Executive Report](reports/executive_report.md)
 - [Methodology and Assumptions](docs/METHODOLOGY_AND_ASSUMPTIONS.md)
 - [Data Quality Checks](docs/DATA_QUALITY_CHECKS.md)
-- [Interview Notes](docs/INTERVIEW_NOTES.md)
 - [Dashboard Wireframe](dashboard/dashboard_wireframe.md)
 - [SQL Analysis](sql/)
 - [Python Pipeline](src/)
@@ -213,7 +215,6 @@ Four pages, designed for senior stakeholders and operational sales teams. Full w
 
 - [Methodology and Assumptions](docs/METHODOLOGY_AND_ASSUMPTIONS.md) explains the synthetic data design, scoring logic, ROI interpretation, limitations, and production extensions.
 - [Data Quality Checks](docs/DATA_QUALITY_CHECKS.md) summarizes the deterministic output checks and validation coverage.
-- [Interview Notes](docs/INTERVIEW_NOTES.md) helps Allen explain the project clearly in behavioral and technical interviews.
 - [GitHub Repository Presentation](docs/GITHUB_REPO_PRESENTATION.md) outlines how recruiters and technical reviewers can navigate the repository.
 
 ## Future Improvements
