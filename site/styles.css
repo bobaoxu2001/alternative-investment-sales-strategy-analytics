@@ -164,7 +164,6 @@ h3 {
   border: 1px solid rgba(255, 255, 255, 0.38);
 }
 
-.story .button.secondary,
 .section-pad .button.secondary {
   color: var(--navy);
   border-color: var(--line);
@@ -269,7 +268,7 @@ h3 {
 
 .card,
 .chart-card,
-.story {
+.doc-card {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--white);
@@ -397,15 +396,52 @@ h3 {
   font-weight: 850;
 }
 
-.story {
-  max-width: 980px;
-  margin: 86px auto;
-  padding: 44px;
+.documentation-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
 }
 
-.story p:not(.eyebrow) {
+.doc-card {
+  display: block;
+  min-height: 220px;
+  padding: 24px;
+  text-decoration: none;
+}
+
+.doc-card span {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--navy);
+  font-size: 18px;
+  font-weight: 850;
+}
+
+.doc-card p {
   color: var(--slate);
-  font-size: 19px;
+  font-size: 15px;
+}
+
+.doc-card:hover {
+  border-color: rgba(45, 111, 159, 0.45);
+  transform: translateY(-2px);
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.doc-card:hover span {
+  color: var(--blue);
+}
+
+.site-footer a {
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--white);
+}
+
+.section-pad p:not(.eyebrow) {
+  color: var(--slate);
 }
 
 .site-footer {
@@ -434,7 +470,8 @@ h3 {
 @media (max-width: 1120px) {
   .hero,
   .card-grid.three,
-  .visual-grid {
+  .visual-grid,
+  .documentation-grid {
     grid-template-columns: 1fr;
   }
 
