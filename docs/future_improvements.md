@@ -28,6 +28,10 @@ Schedule ingestion, transformation, validation, and dashboard refresh jobs. Add 
 
 Add role-based access for sales leadership, regional RMs, marketing, and operations. Log data exports, dashboard views, prioritization changes, and model-score usage for governance.
 
+## Add Deeper Accessibility and Chart Testing
+
+The current static site includes mobile navigation, KPI hydration, a validation snapshot, and accessibility-oriented interactions. A future pass could add automated axe-core checks and richer interactive chart exploration.
+
 ## Synthetic Data Note
 
 The current project uses deterministic synthetic data for portfolio review. These improvements describe how the same analytical framework could mature into a production system using permissioned real data.

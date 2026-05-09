@@ -66,6 +66,29 @@ nav {
   font-weight: 700;
 }
 
+.menu-toggle {
+  display: none;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+  color: var(--navy);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: currentColor;
+}
+
 nav a {
   position: relative;
   text-decoration: none;
@@ -301,6 +324,19 @@ h3 {
   background: #fff8ec;
   border-bottom: 1px solid #eadbbf;
   font-size: 13px;
+}
+
+.fallback-note {
+  margin: 0;
+  padding: 10px max(28px, calc((100vw - var(--max-width)) / 2));
+  color: #6b4a14;
+  background: #fffdf7;
+  border-bottom: 1px solid #eadbbf;
+  font-size: 12px;
+}
+
+.fallback-note[hidden] {
+  display: none;
 }
 
 .section-heading {
@@ -858,16 +894,41 @@ h3 {
 
 @media (max-width: 720px) {
   .site-header {
-    position: static;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 12px;
+    position: sticky;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
     padding: 18px 22px;
   }
 
-  nav {
-    flex-wrap: wrap;
-    gap: 12px;
+  .brand {
+    flex: 1;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .primary-nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+    padding: 8px 0 2px;
+    border-top: 1px solid var(--line);
+  }
+
+  .primary-nav.open {
+    display: flex;
+  }
+
+  .primary-nav a {
+    padding: 12px 0;
+  }
+
+  .primary-nav a::after {
+    bottom: 5px;
   }
 
   .section-pad,
@@ -901,6 +962,10 @@ h3 {
 
   .synthetic-note {
     padding: 14px 22px;
+  }
+
+  .fallback-note {
+    padding: 10px 22px;
   }
 
   .workflow div:not(:last-child)::after {

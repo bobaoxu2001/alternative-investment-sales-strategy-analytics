@@ -32,6 +32,7 @@ This project builds a reproducible analytics workflow from synthetic CRM-style d
 - Campaign ROI module with cost-per-qualified-opportunity and fee-revenue proxy.
 - Advisor priority scoring model with tiering and recommended next action.
 - Generated `site/data/summary_metrics.json` that powers the site KPI strip and validation snapshot from the reproducible analytics pipeline.
+- Mobile navigation, KPI hydration fallbacks, validation snapshot, and accessibility-oriented interactions for keyboard and screen-reader review.
 - Synthetic data disclosure, methodology notes, validation checks, and interview-ready documentation.
 
 ## Dashboard Sections
@@ -143,6 +144,7 @@ Additional charts are available in [`reports/charts/`](reports/charts/).
 - Add investor engagement cohorts and stage-progression time series.
 - Replace rules-based priority scoring with predictive lead scoring.
 - Add scenario modeling for campaign budget and RM coverage allocation.
+- Add deeper accessibility testing with axe-core and richer interactive chart exploration.
 - Add scheduled data refresh, access control, audit logs, and row-level security.
 
 ## Resume Bullets

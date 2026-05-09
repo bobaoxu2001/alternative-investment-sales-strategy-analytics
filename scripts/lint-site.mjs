@@ -48,7 +48,8 @@ for (const asset of html.matchAll(/(?:src|href)="([^"]+)"/g)) {
     continue;
   }
 
-  const target = value.endsWith(".md") ? join(root, value) : join(siteDir, value);
+  const cleanValue = value.split("?")[0];
+  const target = cleanValue.endsWith(".md") ? join(root, cleanValue) : join(siteDir, cleanValue);
   if (!(await exists(target.replace(`${root}/`, "")))) {
     errors.push(`Broken local reference in site/index.html: ${value}`);
   }

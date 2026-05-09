@@ -31,10 +31,40 @@ const moduleData = {
   },
 };
 
+const menuToggle = document.querySelector(".menu-toggle");
+const primaryNav = document.querySelector("#primary-nav");
+
+function setMenuOpen(isOpen) {
+  if (!menuToggle || !primaryNav) return;
+  menuToggle.setAttribute("aria-expanded", String(isOpen));
+  menuToggle.setAttribute("aria-label", isOpen ? "Close navigation menu" : "Open navigation menu");
+  primaryNav.classList.toggle("open", isOpen);
+}
+
+if (menuToggle && primaryNav) {
+  menuToggle.addEventListener("click", () => {
+    setMenuOpen(menuToggle.getAttribute("aria-expanded") !== "true");
+  });
+
+  primaryNav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => setMenuOpen(false));
+  });
+}
+
+function showMetricsFallbackNotice() {
+  const fallbackNote = document.querySelector("#metrics-fallback-note");
+  if (fallbackNote) {
+    fallbackNote.hidden = false;
+  }
+}
+
 async function hydrateSummaryMetrics() {
   try {
     const response = await fetch("data/summary_metrics.json", { cache: "no-store" });
-    if (!response.ok) return;
+    if (!response.ok) {
+      showMetricsFallbackNotice();
+      return;
+    }
 
     const summary = await response.json();
 
@@ -43,6 +73,7 @@ async function hydrateSummaryMetrics() {
       if (summary[key]?.display) {
         node.textContent = summary[key].display;
         node.setAttribute("title", summary[key].source || "Generated summary metric");
+        node.setAttribute("aria-label", `${node.textContent}. ${summary[key].source || "Generated summary metric"}`);
       }
     });
 
@@ -73,6 +104,7 @@ async function hydrateSummaryMetrics() {
         .join("");
     }
   } catch (error) {
+    showMetricsFallbackNotice();
     console.warn("Using static KPI fallbacks because summary metrics could not load.", error);
   }
 }
@@ -108,10 +140,15 @@ const modal = document.querySelector("#chart-modal");
 const modalImage = document.querySelector("#modal-image");
 const modalTitle = document.querySelector("#modal-title");
 const modalClose = document.querySelector(".modal-close");
+let activeChartTrigger = null;
 let lastFocusedElement = null;
 
-function openModal(src, title) {
+function openModal(src, title, trigger) {
   lastFocusedElement = document.activeElement;
+  activeChartTrigger = trigger || document.querySelector(`.chart-trigger[data-src="${src}"]`);
+  if (activeChartTrigger) {
+    activeChartTrigger.setAttribute("aria-expanded", "true");
+  }
   modalImage.src = src;
   modalImage.alt = `${title} enlarged chart`;
   modalTitle.textContent = title;
@@ -124,14 +161,21 @@ function closeModal() {
   modal.classList.remove("open");
   modal.setAttribute("aria-hidden", "true");
   modalImage.src = "";
+  document.querySelectorAll(".chart-trigger[aria-expanded='true']").forEach((trigger) => {
+    trigger.setAttribute("aria-expanded", "false");
+  });
+  if (activeChartTrigger) {
+    activeChartTrigger.setAttribute("aria-expanded", "false");
+  }
   if (lastFocusedElement) {
     lastFocusedElement.focus();
   }
+  activeChartTrigger = null;
 }
 
 document.querySelectorAll(".chart-trigger").forEach((trigger) => {
   trigger.addEventListener("click", () => {
-    openModal(trigger.dataset.src, trigger.dataset.title);
+    openModal(trigger.dataset.src, trigger.dataset.title, trigger);
   });
 });
 
@@ -145,6 +189,9 @@ modal.addEventListener("click", (event) => {
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && modal.classList.contains("open")) {
     closeModal();
+  } else if (event.key === "Escape" && menuToggle?.getAttribute("aria-expanded") === "true") {
+    setMenuOpen(false);
+    menuToggle.focus();
   }
 });
 

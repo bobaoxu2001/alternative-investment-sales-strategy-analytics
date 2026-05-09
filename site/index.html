@@ -13,7 +13,12 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#top">Allen Xu</a>
-      <nav aria-label="Primary navigation">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
         <a class="nav-link" href="#modules">Analysis</a>
         <a class="nav-link" href="#visuals">Visuals</a>
         <a class="nav-link" href="#recommendations">Actions</a>
@@ -55,41 +60,44 @@
         </aside>
       </section>
 
-      <section class="kpi-strip" aria-label="Key project metrics">
+      <section class="kpi-strip" aria-label="Key project metrics" aria-describedby="summary-source-note metrics-fallback-note">
         <!-- Fallback values below are hydrated from site/data/summary_metrics.json when the static site loads. -->
-        <div class="kpi-card">
-          <span data-summary-metric="expected_pipeline">$58.8B</span>
+        <div class="kpi-card" aria-label="Expected Pipeline: modeled opportunity value across all stages">
+          <span data-summary-metric="expected_pipeline" title="Source: data/processed/executive_kpi_summary.csv total_pipeline_value_usd">$58.8B</span>
           <p class="kpi-label">Expected Pipeline</p>
           <small>Modeled opportunity value across all stages.</small>
         </div>
-        <div class="kpi-card">
-          <span data-summary-metric="committed_capital">$6.75B</span>
+        <div class="kpi-card" aria-label="Committed Capital: closed commitment value in the synthetic dataset">
+          <span data-summary-metric="committed_capital" title="Source: data/processed/executive_kpi_summary.csv committed_capital_usd">$6.75B</span>
           <p class="kpi-label">Committed Capital</p>
           <small>Closed commitment value in the synthetic dataset.</small>
         </div>
-        <div class="kpi-card">
-          <span data-summary-metric="conversion_rate">10.87%</span>
+        <div class="kpi-card" aria-label="Conversion Rate: committed opportunities divided by total opportunities">
+          <span data-summary-metric="conversion_rate" title="Source: data/processed/executive_kpi_summary.csv overall_conversion_rate_pct">10.87%</span>
           <p class="kpi-label">Conversion Rate</p>
           <small>Committed opportunities divided by total opportunities.</small>
         </div>
-        <div class="kpi-card">
-          <span data-summary-metric="advisor_count">400</span>
+        <div class="kpi-card" aria-label="Advisors: synthetic advisor universe across wealth and institutional channels">
+          <span data-summary-metric="advisor_count" title="Source: data/raw/advisors.csv row count">400</span>
           <p class="kpi-label">Advisors</p>
           <small>Synthetic advisor universe across wealth and institutional channels.</small>
         </div>
-        <div class="kpi-card">
-          <span data-summary-metric="relationship_manager_count">16</span>
+        <div class="kpi-card" aria-label="Relationship Managers: coverage team used for productivity benchmarking">
+          <span data-summary-metric="relationship_manager_count" title="Source: data/raw/relationship_managers.csv row count">16</span>
           <p class="kpi-label">Relationship Managers</p>
           <small>Coverage team used for productivity benchmarking.</small>
         </div>
-        <div class="kpi-card">
-          <span data-summary-metric="high_priority_advisor_count">132</span>
+        <div class="kpi-card" aria-label="High-Priority Advisors: top-tier advisor targets from the priority scoring model">
+          <span data-summary-metric="high_priority_advisor_count" title="Source: data/processed/advisor_priority_scores.csv priority_tier = High">132</span>
           <p class="kpi-label">High-Priority Advisors</p>
           <small>Top-tier advisor targets from the priority scoring model.</small>
         </div>
       </section>
       <p class="synthetic-note" id="summary-source-note">
         All figures are generated from deterministic synthetic data and are sourced from site/data/summary_metrics.json, with static HTML fallbacks for deploy safety.
+      </p>
+      <p class="fallback-note" id="metrics-fallback-note" hidden>
+        Using static fallback metrics because generated summary data could not be loaded.
       </p>
 
       <section class="section-pad executive-snapshot" aria-labelledby="summary-title">
@@ -170,12 +178,12 @@
           <p class="eyebrow">Analysis Modules</p>
           <h2>Five connected analyses that mirror sales strategy and enablement use cases.</h2>
         </div>
-        <div class="module-tabs" role="group" aria-label="Analysis module selector">
-          <button class="module-tab active" type="button" data-module="funnel" aria-pressed="true">Sales Funnel Conversion</button>
-          <button class="module-tab" type="button" data-module="rm" aria-pressed="false">RM Productivity</button>
-          <button class="module-tab" type="button" data-module="product" aria-pressed="false">Product Demand</button>
-          <button class="module-tab" type="button" data-module="campaign" aria-pressed="false">Campaign ROI</button>
-          <button class="module-tab" type="button" data-module="advisor" aria-pressed="false">Advisor Priority Scoring</button>
+        <div class="module-tabs" role="group" aria-label="Analysis module selector" aria-describedby="module-question module-metric">
+          <button class="module-tab active" type="button" data-module="funnel" aria-pressed="true" aria-describedby="module-question module-metric">Sales Funnel Conversion</button>
+          <button class="module-tab" type="button" data-module="rm" aria-pressed="false" aria-describedby="module-question module-metric">RM Productivity</button>
+          <button class="module-tab" type="button" data-module="product" aria-pressed="false" aria-describedby="module-question module-metric">Product Demand</button>
+          <button class="module-tab" type="button" data-module="campaign" aria-pressed="false" aria-describedby="module-question module-metric">Campaign ROI</button>
+          <button class="module-tab" type="button" data-module="advisor" aria-pressed="false" aria-describedby="module-question module-metric">Advisor Priority Scoring</button>
         </div>
         <div class="module-detail" aria-live="polite">
           <div>
@@ -234,8 +242,8 @@
         </div>
         <div class="visual-grid">
           <figure class="chart-card">
-            <button class="chart-trigger" type="button" data-title="Sales Funnel Conversion" data-src="assets/sales_funnel_conversion.png">
-              <img src="assets/sales_funnel_conversion.png" alt="Sales funnel opportunities by stage" />
+            <button class="chart-trigger" type="button" data-title="Sales Funnel Conversion" data-src="assets/sales_funnel_conversion.png" aria-expanded="false" aria-controls="chart-modal">
+              <img src="assets/sales_funnel_conversion.png" alt="Sales funnel chart showing opportunity count and committed capital by pipeline stage" />
             </button>
             <figcaption>
               <strong>Sales Funnel Conversion</strong>
@@ -244,8 +252,8 @@
             </figcaption>
           </figure>
           <figure class="chart-card">
-            <button class="chart-trigger" type="button" data-title="RM Productivity" data-src="assets/rm_productivity.png">
-              <img src="assets/rm_productivity.png" alt="Relationship manager productivity leaderboard" />
+            <button class="chart-trigger" type="button" data-title="RM Productivity" data-src="assets/rm_productivity.png" aria-expanded="false" aria-controls="chart-modal">
+              <img src="assets/rm_productivity.png" alt="Relationship manager productivity chart comparing committed capital and coaching opportunity flags" />
             </button>
             <figcaption>
               <strong>RM Productivity</strong>
@@ -254,8 +262,8 @@
             </figcaption>
           </figure>
           <figure class="chart-card">
-            <button class="chart-trigger" type="button" data-title="Campaign ROI" data-src="assets/campaign_roi.png">
-              <img src="assets/campaign_roi.png" alt="Campaign ROI by campaign type" />
+            <button class="chart-trigger" type="button" data-title="Campaign ROI" data-src="assets/campaign_roi.png" aria-expanded="false" aria-controls="chart-modal">
+              <img src="assets/campaign_roi.png" alt="Campaign ROI chart showing modeled committed-capital-to-cost efficiency by campaign type" />
             </button>
             <figcaption>
               <strong>Campaign ROI</strong>
@@ -264,8 +272,8 @@
             </figcaption>
           </figure>
           <figure class="chart-card">
-            <button class="chart-trigger" type="button" data-title="Product Demand" data-src="assets/product_demand.png">
-              <img src="assets/product_demand.png" alt="Product demand by asset class" />
+            <button class="chart-trigger" type="button" data-title="Product Demand" data-src="assets/product_demand.png" aria-expanded="false" aria-controls="chart-modal">
+              <img src="assets/product_demand.png" alt="Product demand chart comparing committed capital and engagement across alternative asset classes" />
             </button>
             <figcaption>
               <strong>Product Demand</strong>
@@ -478,6 +486,6 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20260509"></script>
   </body>
 </html>
