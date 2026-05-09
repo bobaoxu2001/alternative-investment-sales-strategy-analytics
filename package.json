@@ -1,0 +1,19 @@
+{
+  "name": "alternative-investment-sales-strategy-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio-ready static analytics dashboard for alternative investment sales strategy.",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "lint": "node scripts/lint-site.mjs"
+  },
+  "keywords": [
+    "analytics",
+    "portfolio",
+    "investment-analytics",
+    "sales-strategy",
+    "static-site"
+  ],
+  "author": "Allen Xu",
+  "license": "MIT"
+}

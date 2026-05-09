@@ -16,6 +16,7 @@
       <nav aria-label="Primary navigation">
         <a class="nav-link" href="#modules">Analysis</a>
         <a class="nav-link" href="#visuals">Visuals</a>
+        <a class="nav-link" href="#recommendations">Actions</a>
         <a class="nav-link" href="#quality">Quality</a>
         <a class="nav-link" href="#documentation">Documentation</a>
       </nav>
@@ -27,10 +28,16 @@
           <p class="eyebrow">Sales Strategy Analytics Portfolio Case Study</p>
           <h1>Alternative Investment Sales Strategy Analytics Platform</h1>
           <p class="hero-subtitle">
-            End-to-end analytics platform simulating how a Global Client Solutions / Wealth
-            Solutions team uses data to optimize advisor coverage, relationship manager
-            productivity, campaign ROI, and product demand across alternative investment products.
+            An analytics dashboard for alternative investment sales strategy, helping teams identify
+            high-potential investor segments, monitor funnel performance, evaluate regional and
+            strategy-level demand, and prioritize advisor outreach using data-driven insights.
           </p>
+          <div class="hero-proof" aria-label="Dashboard workflow summary">
+            <span>Investor segmentation</span>
+            <span>Funnel diagnostics</span>
+            <span>Campaign ROI</span>
+            <span>Priority scoring</span>
+          </div>
           <div class="cta-row">
             <a class="button primary" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics">View GitHub Repo</a>
             <a class="button secondary" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics/blob/main/reports/executive_report.md">Read Executive Report</a>
@@ -135,6 +142,10 @@
         <div class="section-heading compact">
           <p class="eyebrow">What I Built</p>
           <h2>A reproducible analytics workflow from synthetic CRM-style data to executive reporting.</h2>
+          <p>
+            The project connects sales activities, opportunities, campaigns, advisors, RMs, and funds
+            into a dashboard-ready model that supports coverage planning and strategy review.
+          </p>
         </div>
         <div class="workflow" aria-label="Analytics workflow">
           <div>Synthetic Data Generator</div>
@@ -199,6 +210,7 @@
             <figcaption>
               <strong>Sales Funnel Conversion</strong>
               <span>Highlights where opportunities sit by stage and the capital attached to each step.</span>
+              <em>Insight: Due Diligence to Soft Circle is the key funnel friction point.</em>
             </figcaption>
           </figure>
           <figure class="chart-card">
@@ -208,6 +220,7 @@
             <figcaption>
               <strong>RM Productivity</strong>
               <span>Compares committed capital by RM while flagging coaching opportunities.</span>
+              <em>Insight: High engagement with weak conversion points to follow-up discipline.</em>
             </figcaption>
           </figure>
           <figure class="chart-card">
@@ -217,6 +230,7 @@
             <figcaption>
               <strong>Campaign ROI</strong>
               <span>Shows modeled committed-capital-to-cost efficiency by campaign type.</span>
+              <em>Insight: ROI magnitudes are directional because the dataset is synthetic.</em>
             </figcaption>
           </figure>
           <figure class="chart-card">
@@ -226,6 +240,7 @@
             <figcaption>
               <strong>Product Demand</strong>
               <span>Compares committed capital and engagement across alternative asset classes.</span>
+              <em>Insight: Private Equity and Infrastructure convert more efficiently in the demo data.</em>
             </figcaption>
           </figure>
         </div>
@@ -242,6 +257,39 @@
           <article>Private Equity and Infrastructure show stronger modeled conversion and capital efficiency.</article>
           <article>Three RMs show high engagement but lower conversion, suggesting coaching around follow-up discipline.</article>
           <article>Email campaigns show strongest modeled efficiency, but ROI magnitude should be interpreted directionally because the data is synthetic.</article>
+        </div>
+      </section>
+
+      <section class="section-pad" id="recommendations">
+        <div class="section-heading">
+          <p class="eyebrow">Recommendation Summary</p>
+          <h2>How the dashboard turns analysis into sales strategy decisions.</h2>
+          <p>
+            The outputs are designed to help a sales strategy team decide where to focus manager
+            time, campaign dollars, and next-best-action outreach.
+          </p>
+        </div>
+        <div class="recommendation-grid">
+          <article class="recommendation-card">
+            <span>01</span>
+            <h3>Prioritize capital-dense advisor segments</h3>
+            <p>Focus senior coverage on Family Office and Institutional Investor segments where the synthetic data shows higher committed-capital density.</p>
+          </article>
+          <article class="recommendation-card">
+            <span>02</span>
+            <h3>Triage regional conversion gaps</h3>
+            <p>Use region-level funnel cuts to inspect why large books such as Northeast under-convert relative to Midwest and Southwest.</p>
+          </article>
+          <article class="recommendation-card">
+            <span>03</span>
+            <h3>Coach follow-up quality, not activity volume</h3>
+            <p>Separate high engagement from closed commitments so RM coaching targets the post-meeting behaviors that move opportunities forward.</p>
+          </article>
+          <article class="recommendation-card">
+            <span>04</span>
+            <h3>Use priority scoring as a planning queue</h3>
+            <p>Translate engagement, AUM, conversion signals, product fit, and recency into weekly advisor outreach priorities.</p>
+          </article>
         </div>
       </section>
 
@@ -324,6 +372,18 @@
           <a class="doc-card" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics/blob/main/docs/DATA_QUALITY_CHECKS.md">
             <span>Data Quality Checks</span>
             <p>Validation coverage for row counts, key relationships, KPI outputs, chart assets, and reproducibility.</p>
+          </a>
+          <a class="doc-card" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics/blob/main/docs/portfolio_case_study.md">
+            <span>Portfolio Case Study</span>
+            <p>Recruiter-friendly explanation of the problem, analytics approach, business insights, limitations, and value demonstrated.</p>
+          </a>
+          <a class="doc-card" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics/blob/main/docs/interview_talking_points.md">
+            <span>Interview Talking Points</span>
+            <p>Concise pitch, walkthrough, tradeoffs, data limitation language, and likely interview Q&A.</p>
+          </a>
+          <a class="doc-card" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics/blob/main/docs/future_improvements.md">
+            <span>Future Improvements</span>
+            <p>Production roadmap covering CRM integration, cohort analysis, predictive scoring, refresh pipelines, and governance.</p>
           </a>
           <a class="doc-card" href="https://github.com/bobaoxu2001/alternative-investment-sales-strategy-analytics">
             <span>GitHub Repository</span>
