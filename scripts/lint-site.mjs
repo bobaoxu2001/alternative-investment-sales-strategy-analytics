@@ -9,6 +9,7 @@ const requiredFiles = [
   "site/index.html",
   "site/styles.css",
   "site/script.js",
+  "site/data/summary_metrics.json",
   "site/assets/sales_funnel_conversion.png",
   "site/assets/rm_productivity.png",
   "site/assets/campaign_roi.png",
@@ -39,6 +40,7 @@ for (const file of requiredFiles) {
 const html = await readFile(join(siteDir, "index.html"), "utf8");
 const css = await readFile(join(siteDir, "styles.css"), "utf8");
 const script = await readFile(join(siteDir, "script.js"), "utf8");
+const summaryMetrics = JSON.parse(await readFile(join(siteDir, "data", "summary_metrics.json"), "utf8"));
 
 for (const asset of html.matchAll(/(?:src|href)="([^"]+)"/g)) {
   const value = asset[1];
@@ -57,6 +59,7 @@ for (const requiredText of [
   "advisor coverage",
   "campaign roi",
   "priority scoring",
+  "validation snapshot",
 ]) {
   if (!html.toLowerCase().includes(requiredText)) {
     errors.push(`Missing dashboard positioning phrase: ${requiredText}`);
@@ -69,6 +72,27 @@ if (!css.includes("@media (max-width: 720px)")) {
 
 if (!script.includes("moduleData")) {
   errors.push("Missing module interaction data in site/script.js");
+}
+
+if (!script.includes("summary_metrics.json")) {
+  errors.push("Static site does not load generated summary metrics JSON");
+}
+
+for (const key of [
+  "expected_pipeline",
+  "committed_capital",
+  "conversion_rate",
+  "advisor_count",
+  "relationship_manager_count",
+  "high_priority_advisor_count",
+  "campaign_spend",
+  "avg_days_to_close",
+  "generated_from",
+  "synthetic_data_disclaimer",
+]) {
+  if (!(key in summaryMetrics)) {
+    errors.push(`summary_metrics.json missing key: ${key}`);
+  }
 }
 
 for (const doc of [

@@ -19,6 +19,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 CHARTS_DIR = PROJECT_ROOT / "reports" / "charts"
+SITE_DATA_DIR = PROJECT_ROOT / "site" / "data"
 README_PATH = PROJECT_ROOT / "README.md"
 
 RAW_EXPECTED_ROWS = {
@@ -162,6 +163,44 @@ def validate_charts_and_readme(errors: list[str]) -> None:
         check((PROJECT_ROOT / image_path).exists(), f"README image path exists: {image_path}", errors)
 
 
+def validate_site_summary_metrics(processed: dict[str, pd.DataFrame],
+                                  raw: dict[str, pd.DataFrame],
+                                  errors: list[str]) -> None:
+    summary_path = SITE_DATA_DIR / "summary_metrics.json"
+    check(summary_path.exists(), "site/data/summary_metrics.json exists", errors)
+    if not summary_path.exists():
+        return
+
+    import json
+
+    summary = json.loads(summary_path.read_text(encoding="utf-8"))
+    actual = processed["executive_kpi_summary.csv"].set_index("kpi")["value"].to_dict()
+    priority = processed["advisor_priority_scores.csv"]
+
+    comparisons = [
+        ("expected_pipeline", "total_pipeline_value_usd"),
+        ("committed_capital", "committed_capital_usd"),
+        ("conversion_rate", "overall_conversion_rate_pct"),
+        ("campaign_spend", "total_campaign_spend_usd"),
+        ("avg_days_to_close", "avg_days_to_close"),
+    ]
+    for json_key, kpi_key in comparisons:
+        value = summary.get(json_key, {}).get("value")
+        expected = actual.get(kpi_key)
+        check(value is not None and expected is not None and abs(float(value) - float(expected)) < 0.01,
+              f"summary_metrics.json {json_key} matches {kpi_key}", errors)
+
+    check(summary.get("advisor_count", {}).get("value") == len(raw["advisors.csv"]),
+          "summary_metrics.json advisor_count matches raw advisors", errors)
+    check(summary.get("relationship_manager_count", {}).get("value") == len(raw["relationship_managers.csv"]),
+          "summary_metrics.json relationship_manager_count matches raw RMs", errors)
+    check(summary.get("high_priority_advisor_count", {}).get("value")
+          == int((priority["priority_tier"] == "High").sum()),
+          "summary_metrics.json high priority count matches advisor mart", errors)
+    check("synthetic" in summary.get("synthetic_data_disclaimer", "").lower(),
+          "summary_metrics.json includes synthetic data disclosure", errors)
+
+
 def main() -> None:
     errors: list[str] = []
     print("Validating analytics pipeline outputs...\n")
@@ -171,6 +210,7 @@ def main() -> None:
     validate_relationships(raw, errors)
     validate_kpis(processed, errors)
     validate_charts_and_readme(errors)
+    validate_site_summary_metrics(processed, raw, errors)
 
     if errors:
         print("\nValidation failed:")

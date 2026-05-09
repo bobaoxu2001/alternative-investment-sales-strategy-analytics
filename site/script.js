@@ -31,6 +31,54 @@ const moduleData = {
   },
 };
 
+async function hydrateSummaryMetrics() {
+  try {
+    const response = await fetch("data/summary_metrics.json", { cache: "no-store" });
+    if (!response.ok) return;
+
+    const summary = await response.json();
+
+    document.querySelectorAll("[data-summary-metric]").forEach((node) => {
+      const key = node.dataset.summaryMetric;
+      if (summary[key]?.display) {
+        node.textContent = summary[key].display;
+        node.setAttribute("title", summary[key].source || "Generated summary metric");
+      }
+    });
+
+    const sourceNote = document.querySelector("#summary-source-note");
+    if (sourceNote && summary.synthetic_data_disclaimer) {
+      sourceNote.textContent = `${summary.synthetic_data_disclaimer} Source: site/data/summary_metrics.json.`;
+    }
+
+    const snapshot = summary.validation_snapshot || {};
+    document.querySelectorAll("[data-validation-metric]").forEach((node) => {
+      const key = node.dataset.validationMetric;
+      if (snapshot[key] !== undefined) {
+        node.textContent = snapshot[key].toLocaleString();
+      }
+    });
+
+    const validationDisclaimer = document.querySelector("#validation-disclaimer");
+    if (validationDisclaimer && summary.synthetic_data_disclaimer) {
+      validationDisclaimer.textContent = `Synthetic data disclosure: ${summary.synthetic_data_disclaimer}`;
+    }
+
+    const tierPreview = document.querySelector("#priority-tier-preview");
+    if (tierPreview && Array.isArray(summary.priority_tier_preview)) {
+      tierPreview.innerHTML = summary.priority_tier_preview
+        .map(
+          (row) => `<tr><td>${row.tier}</td><td>${row.advisor_count.toLocaleString()}</td></tr>`
+        )
+        .join("");
+    }
+  } catch (error) {
+    console.warn("Using static KPI fallbacks because summary metrics could not load.", error);
+  }
+}
+
+hydrateSummaryMetrics();
+
 const moduleTabs = document.querySelectorAll(".module-tab");
 const moduleQuestion = document.querySelector("#module-question");
 const moduleOutput = document.querySelector("#module-output");

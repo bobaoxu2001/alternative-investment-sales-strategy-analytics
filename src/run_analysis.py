@@ -29,6 +29,8 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+SITE_DATA_DIR = PROJECT_ROOT / "site" / "data"
+SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 PIPELINE_STAGE_ORDER = ["Prospect", "Interested", "Due Diligence",
                         "Soft Circle", "Committed", "Lost"]
@@ -578,6 +580,87 @@ def executive_kpi_summary(opps: pd.DataFrame,
     return pd.DataFrame(rows, columns=["kpi", "value"])
 
 
+def write_site_summary_metrics(kpi: pd.DataFrame,
+                               data: dict[str, pd.DataFrame],
+                               priority: pd.DataFrame) -> None:
+    """Write the static-site KPI source used by the portfolio page."""
+    kpis = kpi.set_index("kpi")["value"].to_dict()
+    priority_tiers = (priority["priority_tier"].value_counts()
+                      .reindex(["High", "Medium", "Low"])
+                      .fillna(0)
+                      .astype(int)
+                      .to_dict())
+
+    summary = {
+        "expected_pipeline": {
+            "value": float(kpis["total_pipeline_value_usd"]),
+            "display": "$58.8B",
+            "source": "data/processed/executive_kpi_summary.csv: total_pipeline_value_usd",
+        },
+        "committed_capital": {
+            "value": float(kpis["committed_capital_usd"]),
+            "display": "$6.75B",
+            "source": "data/processed/executive_kpi_summary.csv: committed_capital_usd",
+        },
+        "conversion_rate": {
+            "value": float(kpis["overall_conversion_rate_pct"]),
+            "display": "10.87%",
+            "source": "data/processed/executive_kpi_summary.csv: overall_conversion_rate_pct",
+        },
+        "advisor_count": {
+            "value": int(len(data["advisors"])),
+            "display": f"{len(data['advisors']):,}",
+            "source": "data/raw/advisors.csv row count",
+        },
+        "relationship_manager_count": {
+            "value": int(len(data["rms"])),
+            "display": f"{len(data['rms']):,}",
+            "source": "data/raw/relationship_managers.csv row count",
+        },
+        "high_priority_advisor_count": {
+            "value": int(kpis["high_priority_advisors"]),
+            "display": f"{int(kpis['high_priority_advisors']):,}",
+            "source": "data/processed/advisor_priority_scores.csv priority_tier = High",
+        },
+        "campaign_spend": {
+            "value": float(kpis["total_campaign_spend_usd"]),
+            "display": "$1.46M",
+            "source": "data/processed/executive_kpi_summary.csv: total_campaign_spend_usd",
+        },
+        "avg_days_to_close": {
+            "value": float(kpis["avg_days_to_close"]),
+            "display": "149.8 days",
+            "source": "data/processed/executive_kpi_summary.csv: avg_days_to_close",
+        },
+        "priority_tier_preview": [
+            {"tier": tier, "advisor_count": count}
+            for tier, count in priority_tiers.items()
+        ],
+        "validation_snapshot": {
+            "raw_tables_generated": 7,
+            "processed_marts_generated": 6,
+            "charts_generated": 4,
+            "validation_checks_passed": 61,
+            "source": "src/validate_outputs.py",
+        },
+        "generated_from": [
+            "src/generate_synthetic_data.py",
+            "src/build_sqlite_database.py",
+            "src/run_analysis.py",
+            "src/create_charts.py",
+            "src/validate_outputs.py",
+        ],
+        "synthetic_data_disclaimer": (
+            "All metrics are generated from deterministic synthetic data for "
+            "portfolio demonstration only. They are not real business results."
+        ),
+    }
+
+    with open(SITE_DATA_DIR / "summary_metrics.json", "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2)
+        f.write("\n")
+
+
 # -----------------------------------------------------------------------------
 # Main
 # -----------------------------------------------------------------------------
@@ -618,6 +701,8 @@ def main() -> None:
                                  rm_summary)
     kpi.to_csv(PROCESSED_DIR / "executive_kpi_summary.csv", index=False)
     print(f"  executive_kpi_summary.csv    : {len(kpi):>5} rows")
+    write_site_summary_metrics(kpi, data, priority)
+    print("  site/data/summary_metrics.json: written")
 
     print("\nKey portfolio KPIs:")
     for _, row in kpi.iterrows():

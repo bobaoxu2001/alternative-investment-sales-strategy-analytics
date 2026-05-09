@@ -24,6 +24,7 @@ The dashboard is structured for recruiter and hiring-manager review:
 - Executive chart gallery with concise insight callouts.
 - Recommendation summary that turns findings into sales strategy actions.
 - Quality and documentation section for methodology, validation, and reproducibility.
+- Validation snapshot showing raw tables, processed marts, generated charts, and checks passed.
 
 ## Analytical Methods
 
@@ -32,6 +33,7 @@ The dashboard is structured for recruiter and hiring-manager review:
 - Product demand analysis comparing activity volume, engagement, pipeline, and committed capital.
 - Campaign ROI analysis using spend, qualified opportunities, committed capital, and fee-revenue proxy.
 - Advisor priority scoring using engagement, AUM segment, conversion probability, product fit, and recency.
+- Site-facing summary metrics generated into `site/data/summary_metrics.json` from the reproducible analytics pipeline.
 
 ## Key Insights
 
@@ -44,6 +46,7 @@ The dashboard is structured for recruiter and hiring-manager review:
 ## Limitations
 
 - Results are computed from synthetic data and should not be treated as real investment sales performance.
+- Site KPIs and validation counts are generated from synthetic pipeline outputs and should not be interpreted as real business performance.
 - Campaign attribution is simplified and does not model multi-touch influence.
 - Priority scoring is explainable and rules-based rather than trained on real closed/lost outcomes.
 - The dashboard is static and does not connect to a live CRM or permissioned investor data source.
